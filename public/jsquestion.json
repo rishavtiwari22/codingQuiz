@@ -1,0 +1,1300 @@
+[
+    {
+        "question": "What is the output of the following code? const add = (a, b) => a + b; console.log(add(2, 3));",
+        "options": [
+          "5",
+          "23",
+          "Error",
+          "undefined"
+        ],
+        "answer": "5",
+        "difficulty": "hard"
+      },
+      {
+        "question": "What will the following code output? const double = x => x * 2; console.log(double(4));",
+        "options": [
+          "8",
+          "4",
+          "Error",
+          "undefined"
+        ],
+        "answer": "8",
+        "difficulty": "hard"
+      },
+      {
+        "question": "What is the purpose of the spread operator (...) in an array?",
+        "options": [
+          "To expand an array into individual elements",
+          "To create a new array",
+          "To merge two arrays",
+          "None of the above"
+        ],
+        "answer": "To expand an array into individual elements",
+        "difficulty": "hard"
+      },
+      {
+        "question": "How do you create a new array that contains the results of calling a function on every element in an array?",
+        "options": [
+          "Using map()",
+          "Using forEach()",
+          "Using filter()",
+          "Using reduce()"
+        ],
+        "answer": "Using map()",
+        "difficulty": "hard"
+      },
+      {
+        "question": "What will the following code output? const arr = [1, 2, 3]; const newArr = [...arr, 4]; console.log(newArr);",
+        "options": [
+          "[1, 2, 3, 4]",
+          "[4, 1, 2, 3]",
+          "[1, 2, 3]",
+          "Error"
+        ],
+        "answer": "[1, 2, 3, 4]",
+        "difficulty": "hard"
+      },
+      {
+        "question": "What is the output of the following code? console.log('5' + 1 - 1);",
+        "options": [
+          "5",
+          "51",
+          "Error",
+          "undefined"
+        ],
+        "answer": "5",
+        "difficulty": "hard"
+      },
+      {
+        "question": "How do you access the first element of an array?",
+        "options": [
+          "array[0]",
+          "array[1]",
+          "array.first()",
+          "array.first"
+        ],
+        "answer": "array[0]",
+        "difficulty": "hard"
+      },
+      {
+        "question": "What is the output of the following code? console.log([1, 2, 3].map(x => x * 2));",
+        "options": [
+          "[2, 4, 6]",
+          "[1, 2, 3]",
+          "Error",
+          "undefined"
+        ],
+        "answer": "[2, 4, 6]",
+        "difficulty": "hard"
+      },
+      {
+        "question": "What does the join() method do in an array?",
+        "options": [
+          "Joins all elements into a string",
+          "Creates a new array",
+          "Removes an element",
+          "Sorts the array"
+        ],
+        "answer": "Joins all elements into a string",
+        "difficulty": "hard"
+      },
+      {
+        "question": "What is the output of the following code? console.log('Hello'.length);",
+        "options": [
+          "5",
+          "Hello",
+          "undefined",
+          "Error"
+        ],
+        "answer": "5",
+        "difficulty": "hard"
+      },
+      {
+        "question": "What will the following code output? console.log('Hello'.charAt(1));",
+        "options": [
+          "e",
+          "H",
+          "Error",
+          "undefined"
+        ],
+        "answer": "e",
+        "difficulty": "hard"
+      },
+      {
+        "question": "How do you convert a string to a number in JavaScript?",
+        "options": [
+          "parseInt()",
+          "Number()",
+          "Both A and B",
+          "String()"
+        ],
+        "answer": "Both A and B",
+        "difficulty": "hard"
+      },
+      {
+        "question": "What is the output of the following code? console.log(Math.max(1, 2, 3));",
+        "options": [
+          "3",
+          "2",
+          "1",
+          "undefined"
+        ],
+        "answer": "3",
+        "difficulty": "hard"
+      },
+      {
+        "question": "What will the following code output? console.log(Math.random());",
+        "options": [
+          "A random number between 0 and 1",
+          "A random integer",
+          "Always 0",
+          "Error"
+        ],
+        "answer": "A random number between 0 and 1",
+        "difficulty": "hard"
+      },
+      {
+        "question": "What does the Math.floor() function do?",
+        "options": [
+          "Rounds a number down to the nearest integer",
+          "Rounds a number up to the nearest integer",
+          "Returns the largest integer less than or equal to a given number",
+          "Both A and C"
+        ],
+        "answer": "Both A and C",
+        "difficulty": "hard"
+      },
+      {
+        "question": "How do you find the length of an array?",
+        "options": [
+          "array.length",
+          "length(array)",
+          "array.size",
+          "None of the above"
+        ],
+        "answer": "array.length",
+        "difficulty": "hard"
+      },
+      {
+        "question": "What is the output of the following code? console.log([1, 2, 3].slice(1, 2));",
+        "options": [
+          "[2]",
+          "[1, 2]",
+          "[2, 3]",
+          "[1]"
+        ],
+        "answer": "[2]",
+        "difficulty": "hard"
+      },
+      {
+        "question": "What will the following code output? console.log('abc'.toUpperCase());",
+        "options": [
+          "ABC",
+          "abc",
+          "Error",
+          "undefined"
+        ],
+        "answer": "ABC",
+        "difficulty": "hard"
+      },
+      {
+        "question": "What does the push() method do in an array?",
+        "options": [
+          "Adds one or more elements to the end of an array",
+          "Removes the last element from an array",
+          "Sorts the elements in an array",
+          "None of the above"
+        ],
+        "answer": "Adds one or more elements to the end of an array",
+        "difficulty": "hard"
+      },
+      {
+        "question": "What is the output of the following code? console.log([1, 2, 3].includes(2));",
+        "options": [
+          "true",
+          "false",
+          "undefined",
+          "Error"
+        ],
+        "answer": "true",
+        "difficulty": "hard"
+      },
+      {
+        "question": "What will the following code output? console.log('5' + 3 - 2);",
+        "options": [
+          "53",
+          "6",
+          "5",
+          "Error"
+        ],
+        "answer": "6",
+        "difficulty": "hard"
+      },
+      {
+        "question": "What does the shift() method do in an array?",
+        "options": [
+          "Removes the first element from an array",
+          "Adds an element to the beginning of an array",
+          "Returns the first element of an array",
+          "Both A and C"
+        ],
+        "answer": "Both A and C",
+        "difficulty": "hard"
+      },
+      {
+        "question": "What is the output of the following code? console.log('Hello'.indexOf('e'));",
+        "options": [
+          "1",
+          "0",
+          "2",
+          "-1"
+        ],
+        "answer": "1",
+        "difficulty": "hard"
+      },
+      {
+        "question": "How do you declare a constant variable in JavaScript?",
+        "options": [
+          "const x = 5;",
+          "let x = 5;",
+          "var x = 5;",
+          "constant x = 5;"
+        ],
+        "answer": "const x = 5;",
+        "difficulty": "hard"
+      },
+      {
+        "question": "What is the output of the following code? console.log(!!'');",
+        "options": [
+          "true",
+          "false",
+          "undefined",
+          "error"
+        ],
+        "answer": "false",
+        "difficulty": "hard"
+      },
+      {
+        "question": "What will the following code output? console.log(1 + '1' + 1);",
+        "options": [
+          "111",
+          "12",
+          "error",
+          "undefined"
+        ],
+        "answer": "111",
+        "difficulty": "hard"
+      },
+      {
+        "question": "What is the output of the following code? console.log(1 + 2 + '3' - 1);",
+        "options": [
+          "23",
+          "2",
+          "3",
+          "Error"
+        ],
+        "answer": "23",
+        "difficulty": "hard"
+      },
+      {
+        "question": "How do you create a new array from an existing array with each element doubled?",
+        "options": [
+          "array.map(x => x * 2);",
+          "array.forEach(x => x * 2);",
+          "array.filter(x => x * 2);",
+          "array.reduce(x => x * 2);"
+        ],
+        "answer": "array.map(x => x * 2);",
+        "difficulty": "hard"
+      },
+      {
+        "question": "What will the following code output? console.log([2] == [2]);",
+        "options": [
+          "true",
+          "false",
+          "undefined",
+          "error"
+        ],
+        "answer": "false",
+        "difficulty": "hard"
+      },
+      {
+        "question": "What does the splice() method do in an array?",
+        "options": [
+          "Adds/removes items to/from an array",
+          "Creates a new array",
+          "Sorts the array",
+          "None of the above"
+        ],
+        "answer": "Adds/removes items to/from an array",
+        "difficulty": "hard"
+      },
+      {
+        "question": "What will the following code output? console.log('1' == 1);",
+        "options": [
+          "true",
+          "false",
+          "undefined",
+          "error"
+        ],
+        "answer": "true",
+        "difficulty": "hard"
+      },
+      {
+        "question": "What is the output of the following code? console.log(Math.sqrt(16));",
+        "options": [
+          "4",
+          "16",
+          "8",
+          "error"
+        ],
+        "answer": "4",
+        "difficulty": "hard"
+      },
+      {
+        "question": "How do you create an object in JavaScript?",
+        "options": [
+          "let myObject = {};",
+          "let myObject = new Object();",
+          "Both A and B",
+          "None of the above"
+        ],
+        "answer": "Both A and B",
+        "difficulty": "hard"
+      },
+      {
+        "question": "What will the following code output? console.log(5 + '5' - 5);",
+        "options": [
+          "55",
+          "5",
+          "10",
+          "error"
+        ],
+        "answer": "5",
+        "difficulty": "hard"
+      },
+      {
+        "question": "What does the includes() method do in an array?",
+        "options": [
+          "Checks if an array includes a certain value",
+          "Adds a value to the array",
+          "Removes a value from the array",
+          "None of the above"
+        ],
+        "answer": "Checks if an array includes a certain value",
+        "difficulty": "hard"
+      },
+      {
+        "question": "What will the following code output? console.log('abc'.slice(1, 2));",
+        "options": [
+          "b",
+          "a",
+          "c",
+          "undefined"
+        ],
+        "answer": "b",
+        "difficulty": "hard"
+      },
+      {
+        "question": "What will the following code output? console.log(parseInt('10.5'));",
+        "options": [
+          "10",
+          "10.5",
+          "5",
+          "error"
+        ],
+        "answer": "10",
+        "difficulty": "hard"
+      },
+      {
+        "question": "What is the output of the following code? console.log([1, 2, 3].reduce((a, b) => a + b));",
+        "options": [
+          "6",
+          "undefined",
+          "error",
+          "3"
+        ],
+        "answer": "6",
+        "difficulty": "hard"
+      },
+      {
+        "question": "How do you check if a variable is an object?",
+        "options": [
+          "typeof variable === 'object'",
+          "variable instanceof Object",
+          "Both A and B",
+          "None of the above"
+        ],
+        "answer": "Both A and B",
+        "difficulty": "hard"
+      },
+    {
+        "question": "What will the following code output? console.log(typeof null);",
+        "options": [
+          "object",
+          "null",
+          "undefined",
+          "error"
+        ],
+        "answer": "object",
+        "difficulty": "hard"
+      },
+      {
+        "question": "What is the result of the expression '5' + 3?",
+        "options": [
+          "8",
+          "53",
+          "Error",
+          "undefined"
+        ],
+        "answer": "53",
+        "difficulty": "hard"
+      },
+      {
+        "question": "What will the following code output? console.log(0.1 + 0.2 === 0.3);",
+        "options": [
+          "true",
+          "false",
+          "undefined",
+          "error"
+        ],
+        "answer": "false",
+        "difficulty": "hard"
+      },
+      {
+        "question": "What does the following code return? Boolean('false')?",
+        "options": [
+          "true",
+          "false",
+          "undefined",
+          "error"
+        ],
+        "answer": "true",
+        "difficulty": "hard"
+      },
+      {
+        "question": "What will the following code output? console.log(1 + '2' + '3');",
+        "options": [
+          "123",
+          "6",
+          "15",
+          "Error"
+        ],
+        "answer": "123",
+        "difficulty": "hard"
+      },
+      {
+        "question": "What is the output of the following code? console.log(1 == '1');",
+        "options": [
+          "true",
+          "false",
+          "undefined",
+          "error"
+        ],
+        "answer": "true",
+        "difficulty": "hard"
+      },
+      {
+        "question": "What will the following code output? console.log(1 === '1');",
+        "options": [
+          "true",
+          "false",
+          "undefined",
+          "error"
+        ],
+        "answer": "false",
+        "difficulty": "hard"
+      },
+      {
+        "question": "What will the following code output? console.log([] == false);",
+        "options": [
+          "true",
+          "false",
+          "undefined",
+          "error"
+        ],
+        "answer": "true",
+        "difficulty": "hard"
+      },
+      {
+        "question": "What is the output of the following code? console.log([1, 2] == [1, 2]);",
+        "options": [
+          "true",
+          "false",
+          "undefined",
+          "error"
+        ],
+        "answer": "false",
+        "difficulty": "hard"
+      },
+      {
+        "question": "What will the following code output? console.log(2 + 3 + '5');",
+        "options": [
+          "25",
+          "55",
+          "8",
+          "error"
+        ],
+        "answer": "55",
+        "difficulty": "hard"
+      },
+      {
+        "question": "What does the following code return? console.log(typeof NaN);",
+        "options": [
+          "number",
+          "NaN",
+          "undefined",
+          "error"
+        ],
+        "answer": "number",
+        "difficulty": "hard"
+      },
+      {
+        "question": "What will the following code output? console.log(!!'');",
+        "options": [
+          "true",
+          "false",
+          "undefined",
+          "error"
+        ],
+        "answer": "false",
+        "difficulty": "hard"
+      },
+      {
+        "question": "What will the following code output? console.log(!!null);",
+        "options": [
+          "true",
+          "false",
+          "undefined",
+          "error"
+        ],
+        "answer": "false",
+        "difficulty": "hard"
+      },
+      {
+        "question": "What is the output of the following code? console.log([1] == true);",
+        "options": [
+          "true",
+          "false",
+          "undefined",
+          "error"
+        ],
+        "answer": "true",
+        "difficulty": "hard"
+      },
+      {
+        "question": "What will the following code output? console.log('5' - 3);",
+        "options": [
+          "2",
+          "53",
+          "error",
+          "undefined"
+        ],
+        "answer": "2",
+        "difficulty": "hard"
+      },
+      {
+        "question": "What does the following code return? console.log('a' + - 'b');",
+        "options": [
+          "NaN",
+          "ab",
+          "undefined",
+          "error"
+        ],
+        "answer": "NaN",
+        "difficulty": "hard"
+      },
+      {
+        "question": "What will the following code output? console.log(typeof (1, 2));",
+        "options": [
+          "number",
+          "undefined",
+          "error",
+          "object"
+        ],
+        "answer": "number",
+        "difficulty": "hard"
+      },
+      {
+        "question": "What is the output of the following code? console.log(3 + 4 + '7');",
+        "options": [
+          "74",
+          "10",
+          "error",
+          "undefined"
+        ],
+        "answer": "74",
+        "difficulty": "hard"
+      },
+      {
+        "question": "What will the following code output? console.log('Hello' + 5 - 2);",
+        "options": [
+          "Hello3",
+          "Hello7",
+          "error",
+          "undefined"
+        ],
+        "answer": "Hello3",
+        "difficulty": "hard"
+      },
+      {
+        "question": "What does the following code return? console.log(1 + '1' == 11);",
+        "options": [
+          "true",
+          "false",
+          "undefined",
+          "error"
+        ],
+        "answer": "true",
+        "difficulty": "hard"
+      },
+      {
+        "question": "What will the following code output? console.log(0 == '0');",
+        "options": [
+          "true",
+          "false",
+          "undefined",
+          "error"
+        ],
+        "answer": "true",
+        "difficulty": "hard"
+      },
+      {
+        "question": "What will the following code output? console.log(0 === '0');",
+        "options": [
+          "true",
+          "false",
+          "undefined",
+          "error"
+        ],
+        "answer": "false",
+        "difficulty": "hard"
+      },
+      {
+        "question": "What is the output of the following code? console.log([1, 2] + [3, 4]);",
+        "options": [
+          "1,23,4",
+          "1,2,3,4",
+          "error",
+          "undefined"
+        ],
+        "answer": "1,23,4",
+        "difficulty": "hard"
+      },
+      {
+        "question": "What will the following code output? console.log(typeof undefined);",
+        "options": [
+          "undefined",
+          "object",
+          "number",
+          "string"
+        ],
+        "answer": "undefined",
+        "difficulty": "hard"
+      },
+      {
+        "question": "What will be the output of the following code? console.log(2 + 3 + '5' - 1);",
+        "options": [
+          "24",
+          "25",
+          "undefined",
+          "error"
+        ],
+        "answer": "24",
+        "difficulty": "hard"
+      },
+      {
+        "question": "What will the following code output? console.log(NaN === NaN);",
+        "options": [
+          "true",
+          "false",
+          "undefined",
+          "error"
+        ],
+        "answer": "false",
+        "difficulty": "hard"
+      },
+      {
+        "question": "What is the output of the following code? console.log(1 + '2' + 3);",
+        "options": [
+          "123",
+          "33",
+          "12",
+          "error"
+        ],
+        "answer": "123",
+        "difficulty": "hard"
+      },
+      {
+        "question": "What does the following code return? console.log(5 == '5');",
+        "options": [
+          "true",
+          "false",
+          "undefined",
+          "error"
+        ],
+        "answer": "true",
+        "difficulty": "hard"
+      },
+      {
+        "question": "What is the purpose of the eval() function in JavaScript?",
+        "options": [
+          "To evaluate JavaScript code represented as a string",
+          "To execute a function",
+          "To create a new variable",
+          "To define a function"
+        ],
+        "answer": "To evaluate JavaScript code represented as a string",
+        "difficulty": "hard"
+      },
+      {
+        "question": "What will the following code output? console.log(5 + '5' - 5);",
+        "options": [
+          "55",
+          "10",
+          "0",
+          "error"
+        ],
+        "answer": "5",
+        "difficulty": "hard"
+      },
+      {
+        "question": "How do you check if a variable is an array?",
+        "options": [
+          "Array.isArray(variable);",
+          "variable instanceof Array;",
+          "Both A and B",
+          "None of the above"
+        ],
+        "answer": "Both A and B",
+        "difficulty": "hard"
+      },
+      {
+        "question": "What does the slice() method do in JavaScript?",
+        "options": [
+          "Extracts a section of a string or array",
+          "Removes the last element from an array",
+          "Adds an element to the end of an array",
+          "None of the above"
+        ],
+        "answer": "Extracts a section of a string or array",
+        "difficulty": "hard"
+      },
+      {
+        "question": "What is the output of the following code? console.log('5' - 3);",
+        "options": [
+          "2",
+          "53",
+          "error",
+          "undefined"
+        ],
+        "answer": "2",
+        "difficulty": "hard"
+      },
+      {
+        "question": "What does the spread operator (...) do in JavaScript?",
+        "options": [
+          "Expands an iterable into individual elements",
+          "Creates a new array",
+          "Merges two arrays",
+          "None of the above"
+        ],
+        "answer": "Expands an iterable into individual elements",
+        "difficulty": "hard"
+      },
+      {
+        "question": "What will the following code output? console.log(1 + 2 + '3' + 4);",
+        "options": [
+          "1234",
+          "33",
+          "10",
+          "error"
+        ],
+        "answer": "334",
+        "difficulty": "hard"
+      },
+      {
+        "question": "What is the purpose of the filter() method in JavaScript?",
+        "options": [
+          "To create a new array with elements that pass a test",
+          "To remove elements from an array",
+          "To sort an array",
+          "None of the above"
+        ],
+        "answer": "To create a new array with elements that pass a test",
+        "difficulty": "hard"
+      },
+      {
+        "question": "What will the following code output? console.log(5 == '5' && 5 === '5');",
+        "options": [
+          "true",
+          "false",
+          "undefined",
+          "error"
+        ],
+        "answer": "false",
+        "difficulty": "hard"
+      },
+ {
+    "question": "What is the purpose of the semicolon (;) in JavaScript?",
+    "options": [
+      "To separate statements",
+      "To define variables",
+      "To create comments",
+      "To declare functions"
+    ],
+    "answer": "To separate statements",
+    "difficulty": "easy"
+  },
+  {
+  "question": "What is the purpose of the semicolon (;) in JavaScript?",
+  "options": [
+    "To separate statements",
+    "To define variables",
+    "To create comments",
+    "To declare functions"
+  ],
+  "answer": "To separate statements",
+  "difficulty": "easy"
+ },
+ {
+  "question": "How do you declare a variable in JavaScript?",
+  "options": [
+    "var x = 5;",
+    "variable x = 5;",
+    "let x = 5;",
+    "Both A and C"
+  ],
+  "answer": "Both A and C",
+  "difficulty": "easy"
+ },
+ {
+  "question": "What is the purpose of the console.log() function in JavaScript?",
+  "options": [
+    "To display output in the browser console",
+    "To create alerts",
+    "To handle user input",
+    "To define variables"
+  ],
+  "answer": "To display output in the browser console",
+  "difficulty": "easy"
+  },
+  {
+    "question": "How do you declare a variable in JavaScript?",
+    "options": [
+      "var x = 5;",
+      "variable x = 5;",
+      "let x = 5;",
+      "Both A and C"
+    ],
+    "answer": "Both A and C",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is the purpose of the console.log() function in JavaScript?",
+    "options": [
+      "To display output in the browser console",
+      "To create alerts",
+      "To handle user input",
+      "To define variables"
+    ],
+    "answer": "To display output in the browser console",
+    "difficulty": "easy"
+  },
+  {
+    "question": "How do you define a function in JavaScript?",
+    "options": [
+      "function myFunction() { }",
+      "def myFunction() { }",
+      "create myFunction() { }",
+      "function: myFunction() { }"
+    ],
+    "answer": "function myFunction() { }",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is the purpose of the return statement in a function?",
+    "options": [
+      "To return a value from the function",
+      "To end the function execution",
+      "To call another function",
+      "Both A and B"
+    ],
+    "answer": "Both A and B",
+    "difficulty": "medium"
+  },
+  {
+    "question": "How do you create an if statement in JavaScript?",
+    "options": [
+      "if (condition) { }",
+      "if condition { }",
+      "if: condition { }",
+      "if { condition }"
+    ],
+    "answer": "if (condition) { }",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is the purpose of the else statement in an if-else block?",
+    "options": [
+      "To execute code if the condition is false",
+      "To execute code if the condition is true",
+      "To create a switch statement",
+      "To define a function"
+    ],
+    "answer": "To execute code if the condition is false",
+    "difficulty": "easy"
+  },
+  {
+    "question": "How do you create a for loop in JavaScript?",
+    "options": [
+      "for (let i = 0; i < 5; i++) { }",
+      "for i = 0 to 4 { }",
+      "for (i = 0; i < 5) { }",
+      "for (let i = 0; i < 5) { }"
+    ],
+    "answer": "for (let i = 0; i < 5; i++) { }",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is the purpose of the while loop in JavaScript?",
+    "options": [
+      "To execute code as long as a condition is true",
+      "To execute code a specific number of times",
+      "To create an if-else statement",
+      "To define a function"
+    ],
+    "answer": "To execute code as long as a condition is true",
+    "difficulty": "easy"
+  },
+  {
+    "question": "How do you create an array in JavaScript?",
+    "options": [
+      "let myArray = [1, 2, 3];",
+      "let myArray = (1, 2, 3);",
+      "let myArray = {1, 2, 3};",
+      "let myArray = 'one', 'two', 'three';"
+    ],
+    "answer": "let myArray = [1, 2, 3];",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is the purpose of the push() method in an array?",
+    "options": [
+      "To add an element to the end of the array",
+      "To remove an element from the end of the array",
+      "To sort the elements in the array",
+      "To reverse the order of elements in the array"
+    ],
+    "answer": "To add an element to the end of the array",
+    "difficulty": "easy"
+  },
+  {
+    "question": "How do you access an element in an array?",
+    "options": [
+      "myArray[index]",
+      "myArray.get(index)",
+      "myArray.item(index)",
+      "myArray.at(index)"
+    ],
+    "answer": "myArray[index]",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is the purpose of the concat() method in JavaScript?",
+    "options": [
+      "To merge two or more arrays",
+      "To reverse the order of elements in an array",
+      "To sort the elements in an array",
+      "To remove elements from an array"
+    ],
+    "answer": "To merge two or more arrays",
+    "difficulty": "medium"
+  },
+  {
+    "question": "How do you create an object in JavaScript?",
+    "options": [
+      "let myObject = { key: value };",
+      "let myObject = (key: value);",
+      "let myObject = [key: value];",
+      "let myObject = 'key': 'value';"
+    ],
+    "answer": "let myObject = { key: value };",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is the purpose of the dot notation to access object properties?",
+    "options": [
+      "To access properties using a string key",
+      "To access properties using a number index",
+      "To create new properties",
+      "To delete properties"
+    ],
+    "answer": "To access properties using a string key",
+    "difficulty": "easy"
+  },
+  {
+    "question": "How do you add a new property to an object in JavaScript?",
+    "options": [
+      "myObject.newProperty = value;",
+      "myObject['newProperty'] = value;",
+      "Both A and B",
+      "None of the above"
+    ],
+    "answer": "Both A and B",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is the purpose of the typeof operator in JavaScript?",
+    "options": [
+      "To determine the data type of a value or variable",
+      "To convert a value to a different data type",
+      "To check if a variable is undefined",
+      "To create a new variable"
+    ],
+    "answer": "To determine the data type of a value or variable",
+    "difficulty": "easy"
+  },
+  {
+    "question": "How do you create a string in JavaScript?",
+    "options": [
+      "let myString = 'Hello';",
+      "let myString = Hello;",
+      "let myString = \"Hello\";",
+      "Both A and C"
+    ],
+    "answer": "Both A and C",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is the purpose of the concat() method for strings?",
+    "options": [
+      "To concatenate two or more strings",
+      "To convert a string to uppercase",
+      "To convert a string to lowercase",
+      "To remove whitespace from a string"
+    ],
+    "answer": "To concatenate two or more strings",
+    "difficulty": "easy"
+  },
+  {
+    "question": "How do you access a character in a string?",
+    "options": [
+      "myString[index]",
+      "myString.charAt(index)",
+      "myString.getChar(index)",
+      "myString.at(index)"
+    ],
+    "answer": "Both A and B",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is the purpose of the parseInt() function in JavaScript?",
+    "options": [
+      "To convert a string to an integer",
+      "To convert an integer to a string",
+      "To add two numbers",
+      "To subtract two numbers"
+    ],
+    "answer": "To convert a string to an integer",
+    "difficulty": "easy"
+  },
+  {
+    "question": "How do you create a switch statement in JavaScript?",
+    "options": [
+      "switch (expression) { case value: }",
+      "if (expression) { case value: }",
+      "switch expression { case value: }",
+      "if expression { case value: }"
+    ],
+    "answer": "switch (expression) { case value: }",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is the purpose of the break statement inside a switch case?",
+    "options": [
+      "To exit the switch statement",
+      "To execute the next case",
+      "To create a new case",
+      "To define a default case"
+    ],
+    "answer": "To exit the switch statement",
+    "difficulty": "easy"
+  },
+  {
+    "question": "How do you create a ternary operator in JavaScript?",
+    "options": [
+      "condition ? valueIfTrue : valueIfFalse;",
+      "if (condition) { valueIfTrue } else { valueIfFalse }",
+      "condition ?: valueIfTrue : valueIfFalse",
+      "if condition { valueIfTrue } else { valueIfFalse }"
+    ],
+    "answer": "condition ? valueIfTrue : valueIfFalse;",
+    "difficulty": "medium"
+  },
+  {
+    "question": "What is the purpose of the isNaN() function in JavaScript?",
+    "options": [
+      "To check if a value is not a number",
+      "To convert a value to a number",
+      "To check if a value is a number",
+      "To create a new number"
+    ],
+    "answer": "To check if a value is not a number",
+    "difficulty": "medium"
+  },
+  {
+    "question": "How do you create a function expression in JavaScript?",
+    "options": [
+      "let myFunction = function() { };",
+      "function myFunction() { };",
+      "myFunction = function() { };",
+      "function: myFunction() { };"
+    ],
+    "answer": "let myFunction = function() { };",
+    "difficulty": "medium"
+  },
+  {
+    "question": "What is the purpose of the call() method in a function?",
+    "options": [
+      "To invoke a function with a specified this value and arguments",
+      "To create a new function",
+      "To define a function parameter",
+      "To return a value from a function"
+    ],
+    "answer": "To invoke a function with a specified this value and arguments",
+    "difficulty": "medium"
+  },
+  {
+    "question": "How do you create a Date object in JavaScript?",
+    "options": [
+      "let myDate = new Date();",
+      "let myDate = Date();",
+      "let myDate = new Date('2023-05-01');",
+      "Both A and C"
+    ],
+    "answer": "Both A and C",
+    "difficulty": "medium"
+  },
+  {
+    "question": "What is the purpose of the getTime() method in a Date object?",
+    "options": [
+      "To get the number of milliseconds since January 1, 1970",
+      "To get the current date",
+      "To set the date and time",
+      "To format the date and time"
+    ],
+    "answer": "To get the number of milliseconds since January 1, 1970",
+    "difficulty": "medium"
+  },
+  {
+    "question": "How do you create a regular expression in JavaScript?",
+    "options": [
+      "let myRegex = /pattern/;",
+      "let myRegex = new RegExp('pattern');",
+      "Both A and B",
+      "None of the above"
+    ],
+    "answer": "Both A and B",
+    "difficulty": "medium"
+  },
+  {
+    "question": "What is the purpose of the test() method in a regular expression?",
+    "options": [
+      "To check if a string matches the pattern",
+      "To replace matches in a string",
+      "To split a string based on a pattern",
+      "To create a new regular expression"
+    ],
+    "answer": "To check if a string matches the pattern",
+    "difficulty": "medium"
+  },
+  {
+    "question": "How do you create a try-catch block in JavaScript?",
+    "options": [
+      "try { } catch (error) { }",
+      "try: { } catch error: { }",
+      "try { } catch { }",
+      "try: { } catch: { }"
+    ],
+    "answer": "try { } catch (error) { }",
+    "difficulty": "medium"
+  },
+  {
+    "question": "What is the purpose of the throw statement in a try-catch block?",
+    "options": [
+      "To throw an error or exception",
+      "To catch an error or exception",
+      "To create a new error",
+      "To define a custom error message"
+    ],
+    "answer": "To throw an error or exception",
+    "difficulty": "medium"
+  },
+  {
+    "question": "How do you create a Promise object in JavaScript?",
+    "options": [
+      "let myPromise = new Promise(function(resolve, reject) { });",
+      "let myPromise = Promise(resolve, reject);",
+      "let myPromise = new Promise(resolve, reject);",
+      "let myPromise = Promise(function(resolve, reject) { });"
+    ],
+    "answer": "let myPromise = new Promise(function(resolve, reject) { });",
+    "difficulty": "hard"
+  },
+  {
+    "question": "What is the purpose of the then() method in a Promise?",
+    "options": [
+      "To handle the successful completion of a Promise",
+      "To handle errors in a Promise",
+      "To create a new Promise",
+      "To chain multiple Promises together"
+    ],
+    "answer": "To handle the successful completion of a Promise",
+    "difficulty": "hard"
+  },
+  {
+    "question": "How do you create an arrow function in JavaScript?",
+    "options": [
+      "let myFunction = (param) => { };",
+      "let myFunction = function(param) { };",
+      "myFunction = (param) => { };",
+      "function myFunction(param) { }"
+    ],
+    "answer": "let myFunction = (param) => { };",
+    "difficulty": "medium"
+  },
+  {
+    "question": "What is the purpose of the spread operator (...) in JavaScript?",
+    "options": [
+      "To spread elements of an iterable (like an array) into individual elements",
+      "To create a new array or object",
+      "To access properties of an object",
+      "To define function parameters"
+    ],
+    "answer": "To spread elements of an iterable (like an array) into individual elements",
+    "difficulty": "medium"
+  },
+  {
+    "question": "How do you create a class in JavaScript?",
+    "options": [
+      "class MyClass { }",
+      "function MyClass() { }",
+      "let MyClass = class { }",
+      "Both A and B"
+    ],
+    "answer": "class MyClass { }",
+    "difficulty": "medium"
+  },
+  {
+    "question": "What is the purpose of the constructor method in a class?",
+    "options": [
+      "To initialize the properties of an object",
+      "To define methods of a class",
+      "To create a new instance of a class",
+      "To inherit properties and methods from a parent class"
+    ],
+    "answer": "To initialize the properties of an object",
+    "difficulty": "medium"
+    }
+]

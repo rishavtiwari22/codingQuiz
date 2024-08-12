@@ -1,0 +1,873 @@
+
+[
+
+  {
+    "question": "What is the purpose of the <template> element in HTML?",
+    "options": [
+      "To define a section of reusable HTML content",
+      "To create a navigation link",
+      "To insert a line break",
+      "To include external resources"
+    ],
+    "answer": "To define a section of reusable HTML content",
+    "difficulty": "hard"
+  },
+  {
+    "question": "How can you create a multi-column layout in HTML?",
+    "options": [
+      "Using <table> elements",
+      "Using <div> with CSS float property",
+      "Using <section> elements",
+      "Using <article> elements"
+    ],
+    "answer": "Using <div> with CSS float property",
+    "difficulty": "hard"
+  },
+  {
+    "question": "What is the purpose of the <aside> element in HTML5?",
+    "options": [
+      "To define content that is related to the main content",
+      "To create a footer",
+      "To insert a video",
+      "To define a navigation link"
+    ],
+    "answer": "To define content that is related to the main content",
+    "difficulty": "hard"
+  },
+  {
+    "question": "What does the 'defer' attribute do in a <script> tag?",
+    "options": [
+      "It loads the script after the document has been parsed",
+      "It prevents the script from executing",
+      "It loads the script immediately",
+      "It specifies the script type"
+    ],
+    "answer": "It loads the script after the document has been parsed",
+    "difficulty": "hard"
+  },
+  {
+    "question": "How do you specify a character encoding in HTML?",
+    "options": [
+      "<meta charset='UTF-8'>",
+      "<meta encoding='UTF-8'>",
+      "<meta http-equiv='Content-Type' content='text/html; charset=UTF-8'>",
+      "<meta content='UTF-8' charset='text/html'>"
+    ],
+    "answer": "<meta charset='UTF-8'>",
+    "difficulty": "hard"
+  },
+  {
+    "question": "What is the purpose of the <main> element in HTML5?",
+    "options": [
+      "To represent the dominant content of the <body>",
+      "To create a sidebar",
+      "To insert a video",
+      "To define a navigation link"
+    ],
+    "answer": "To represent the dominant content of the <body>",
+    "difficulty": "hard"
+  },
+  {
+    "question": "Which HTML element is used to define a list of items that can be selected?",
+    "options": [
+      "<select>",
+      "<input type='checkbox'>",
+      "<input type='radio'>",
+      "<options>"
+    ],
+    "answer": "<select>",
+    "difficulty": "hard"
+  },
+  {
+    "question": "What is the purpose of the <progress> element in HTML5?",
+    "options": [
+      "To represent the completion progress of a task",
+      "To create a navigation link",
+      "To insert a video",
+      "To define a navigation menu"
+    ],
+    "answer": "To represent the completion progress of a task",
+    "difficulty": "hard"
+  },
+  {
+    "question": "How can you make a list of items that are not numbered?",
+    "options": [
+      "Using <ul>",
+      "Using <ol>",
+      "Using <list>",
+      "Using <item>"
+    ],
+    "answer": "Using <ul>",
+    "difficulty": "hard"
+  },
+  {
+    "question": "What is the purpose of the <wbr> element in HTML?",
+    "options": [
+      "To suggest a line break opportunity",
+      "To create a new paragraph",
+      "To insert a horizontal rule",
+      "To define a block of text"
+    ],
+    "answer": "To suggest a line break opportunity",
+    "difficulty": "hard"
+  },
+  {
+    "question": "What is the purpose of the <meta> tag in HTML?",
+    "options": [
+      "To define metadata about an HTML document",
+      "To create a navigation link",
+      "To insert a line break",
+      "To include external resources"
+    ],
+    "answer": "To define metadata about an HTML document",
+    "difficulty": "hard"
+  },
+  {
+    "question": "How can you include an external CSS file in an HTML document?",
+    "options": [
+      "<link rel='stylesheet' href='style.css'>",
+      "<style src='style.css'>",
+      "<css href='style.css'>",
+      "<stylesheet src='style.css'>"
+    ],
+    "answer": "<link rel='stylesheet' href='style.css'>",
+    "difficulty": "hard"
+  },
+  {
+    "question": "What is the difference between <div> and <span>?",
+    "options": [
+      "<div> is a block-level element, while <span> is an inline element",
+      "<div> is used for text, while <span> is used for images",
+      "<div> cannot contain other elements, while <span> can",
+      "There is no difference"
+    ],
+    "answer": "<div> is a block-level element, while <span> is an inline element",
+    "difficulty": "hard"
+  },
+  {
+    "question": "What does the <canvas> element do in HTML5?",
+    "options": [
+      "It allows for dynamic, scriptable rendering of 2D shapes and images",
+      "It is used for embedding videos",
+      "It creates a table layout",
+      "It defines a navigation menu"
+    ],
+    "answer": "It allows for dynamic, scriptable rendering of 2D shapes and images",
+    "difficulty": "hard"
+  },
+  {
+    "question": "What is the purpose of the 'data-*' attribute in HTML?",
+    "options": [
+      "To store custom data private to the page or application",
+      "To define the data type",
+      "To specify the data source",
+      "To create a new element"
+    ],
+    "answer": "To store custom data private to the page or application",
+    "difficulty": "hard"
+  },
+  {
+    "question": "Which HTML element is used to define a navigation section?",
+    "options": [
+      "<nav>",
+      "<navigation>",
+      "<menu>",
+      "<link>"
+    ],
+    "answer": "<nav>",
+    "difficulty": "hard"
+  },
+  {
+    "question": "What is the purpose of the <section> tag in HTML5?",
+    "options": [
+      "To define sections in a document",
+      "To create a sidebar",
+      "To insert a video",
+      "None of the above"
+    ],
+    "answer": "To define sections in a document",
+    "difficulty": "hard"
+  },
+  {
+    "question": "How do you create a responsive image in HTML?",
+    "options": [
+      "<img src='image.jpg' style='width:100%;'>",
+      "<image src='image.jpg' responsive>",
+      "<img src='image.jpg' class='responsive'>",
+      "<img src='image.jpg' style='height:auto;'>"
+    ],
+    "answer": "<img src='image.jpg' style='width:100%;'>",
+    "difficulty": "hard"
+  },
+  {
+    "question": "What is the purpose of the <figure> element in HTML5?",
+    "options": [
+      "To represent self-contained content, typically referenced from the main content",
+      "To create a footer",
+      "To define a navigation link",
+      "To insert a table"
+    ],
+    "answer": "To represent self-contained content, typically referenced from the main content",
+    "difficulty": "hard"
+  },
+  {
+    "question": "Which attribute is used to specify the URL of the page the link goes to?",
+    "options": [
+      "src",
+      "href",
+      "link",
+      "url"
+    ],
+    "answer": "href",
+    "difficulty": "hard"
+  },  
+  {
+    "question": "What does HTML stand for?",
+    "options": [
+      "Hyper Text Markup Language",
+      "High Text Markup Language",
+      "Hyperlink and Text Markup Language",
+      "None of the above"
+    ],
+    "answer": "Hyper Text Markup Language",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Which of the following is the correct HTML element for the largest heading?",
+    "options": [
+      "<h1>",
+      "<heading>",
+      "<h6>",
+      "<h5>"
+    ],
+    "answer": "<h1>",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is the purpose of the <head> element in HTML?",
+    "options": [
+      "To define the main content of the document",
+      "To contain metadata and links to scripts and styles",
+      "To create a navigation menu",
+      "To display images"
+    ],
+    "answer": "To contain metadata and links to scripts and styles",
+    "difficulty": "medium"
+  },
+  {
+    "question": "Which HTML element is used to define an unordered list?",
+    "options": [
+      "<ul>",
+      "<ol>",
+      "<li>",
+      "<list>"
+    ],
+    "answer": "<ul>",
+    "difficulty": "easy"
+  },
+  {
+    "question": "How do you create a hyperlink in HTML?",
+    "options": [
+      "<a href='url'>link text</a>",
+      "<link href='url'>link text</link>",
+      "<href='url'>link text</href>",
+      "<a>link text</a>"
+    ],
+    "answer": "<a href='url'>link text</a>",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Which attribute is used to specify the URL of the page the link goes to?",
+    "options": [
+      "src",
+      "href",
+      "link",
+      "url"
+    ],
+    "answer": "href",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is the correct HTML element for inserting a line break?",
+    "options": [
+      "<break>",
+      "<lb>",
+      "<br>",
+      "<linebreak>"
+    ],
+    "answer": "<br>",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Which HTML tag is used to define an internal style sheet?",
+    "options": [
+      "<style>",
+      "<css>",
+      "<script>",
+      "<link>"
+    ],
+    "answer": "<style>",
+    "difficulty": "medium"
+  },
+  {
+    "question": "What is the purpose of the alt attribute in an <img> tag?",
+    "options": [
+      "To specify the image source",
+      "To provide alternative text for the image",
+      "To define the image width",
+      "To create a link to the image"
+    ],
+    "answer": "To provide alternative text for the image",
+    "difficulty": "medium"
+  },
+  {
+    "question": "Which HTML element is used to define a table?",
+    "options": [
+      "<table>",
+      "<tab>",
+      "<tbody>",
+      "<tr>"
+    ],
+    "answer": "<table>",
+    "difficulty": "medium"
+  },
+  {
+    "question": "What does the <form> element do in HTML?",
+    "options": [
+      "Defines a form for user input",
+      "Creates a navigation menu",
+      "Displays images",
+      "Defines a section in a document"
+    ],
+    "answer": "Defines a form for user input",
+    "difficulty": "medium"
+  },
+  {
+    "question": "How can you make a numbered list in HTML?",
+    "options": [
+      "<ol>",
+      "<ul>",
+      "<list>",
+      "<dl>"
+    ],
+    "answer": "<ol>",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Which attribute is used to specify the character encoding for an HTML document?",
+    "options": [
+      "charset",
+      "encoding",
+      "type",
+      "meta"
+    ],
+    "answer": "charset",
+    "difficulty": "medium"
+  },
+  {
+    "question": "What is the correct HTML for creating a checkbox?",
+    "options": [
+      "<input type='checkbox'>",
+      "<checkbox>",
+      "<input type='check'>",
+      "<check>"
+    ],
+    "answer": "<input type='checkbox'>",
+    "difficulty": "medium"
+  },
+  {
+    "question": "Which element is used to define a footer in HTML?",
+    "options": [
+      "<footer>",
+      "<bottom>",
+      "<section>",
+      "<div>"
+    ],
+    "answer": "<footer>",
+    "difficulty": "medium"
+  },
+  {
+    "question": "What is the purpose of the <meta> tag in HTML?",
+    "options": [
+      "To provide metadata about the HTML document",
+      "To define the main content",
+      "To create links",
+      "To display images"
+    ],
+    "answer": "To provide metadata about the HTML document",
+    "difficulty": "medium"
+  },
+  {
+    "question": "Which HTML element defines the title of a document?",
+    "options": [
+      "<title>",
+      "<head>",
+      "<meta>",
+      "<h1>"
+    ],
+    "answer": "<title>",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is the correct HTML for adding a background color?",
+    "options": [
+      "<body style='background-color:blue;'>",
+      "<body bg='blue'>",
+      "<background color='blue'>",
+      "<body background='blue'>"
+    ],
+    "answer": "<body style='background-color:blue;'>",
+    "difficulty": "medium"
+  },
+  {
+    "question": "Which HTML element is used to define a section in a document?",
+    "options": [
+      "<section>",
+      "<div>",
+      "<article>",
+      "<header>"
+    ],
+    "answer": "<section>",
+    "difficulty": "medium"
+  },
+  {
+    "question": "How do you create a dropdown list in HTML?",
+    "options": [
+      "<select>",
+      "<dropdown>",
+      "<list>",
+      "<input type='dropdown'>"
+    ],
+    "answer": "<select>",
+    "difficulty": "medium"
+  },
+  {
+    "question": "Which HTML element is used to define a navigation bar?",
+    "options": [
+      "<nav>",
+      "<navigation>",
+      "<menu>",
+      "<header>"
+    ],
+    "answer": "<nav>",
+    "difficulty": "medium"
+  },
+  {
+    "question": "What is the purpose of the <link> tag in HTML?",
+    "options": [
+      "To link to external stylesheets",
+      "To create hyperlinks",
+      "To define JavaScript files",
+      "To embed images"
+    ],
+    "answer": "To link to external stylesheets",
+    "difficulty": "medium"
+  },
+  {
+    "question": "Which HTML element is used to define an article?",
+    "options": [
+      "<article>",
+      "<section>",
+      "<div>",
+      "<content>"
+    ],
+    "answer": "<article>",
+    "difficulty": "medium"
+  },
+  {
+    "question": "How do you specify an image as a link in HTML?",
+    "options": [
+      "<a href='url'><img src='image.jpg'></a>",
+      "<img href='url' src='image.jpg'>",
+      "<link href='url'><img src='image.jpg'></link>",
+      "<a img='image.jpg' href='url'></a>"
+    ],
+    "answer": "<a href='url'><img src='image.jpg'></a>",
+    "difficulty": "medium"
+  },
+  {
+    "question": "What is the correct HTML for creating a radio button?",
+    "options": [
+      "<input type='radio'>",
+      "<radio>",
+      "<input type='rad'>",
+      "<input radio='true'>"
+    ],
+    "answer": "<input type='radio'>",
+    "difficulty": "medium"
+  },
+  {
+    "question": "Which tag is used to define an inline frame?",
+    "options": [
+      "<iframe>",
+      "<frame>",
+      "<inline>",
+      "<img>"
+    ],
+    "answer": "<iframe>",
+    "difficulty": "medium"
+  },
+  {
+    "question": "What is the default value of the type attribute for the <button> element?",
+    "options": [
+      "button",
+      "submit",
+      "reset",
+      "action"
+    ],
+    "answer": "submit",
+    "difficulty": "medium"
+  },
+  {
+    "question": "Which HTML element is used to define a sidebar?",
+    "options": [
+      "<aside>",
+      "<sidebar>",
+      "<section>",
+      "<nav>"
+    ],
+    "answer": "<aside>",
+    "difficulty": "medium"
+  },
+  {
+    "question": "What is the purpose of the <canvas> element in HTML?",
+    "options": [
+      "To draw graphics on the fly via scripting",
+      "To display images",
+      "To create tables",
+      "To embed videos"
+    ],
+    "answer": "To draw graphics on the fly via scripting",
+    "difficulty": "hard"
+  },
+  {
+    "question": "Which HTML element is used to define a header for a document or section?",
+    "options": [
+      "<header>",
+      "<head>",
+      "<h1>",
+      "<top>"
+    ],
+    "answer": "<header>",
+    "difficulty": "medium"
+  },
+  {
+    "question": "How do you create a text area in HTML?",
+    "options": [
+      "<textarea></textarea>",
+      "<text></text>",
+      "<input type='textarea'>",
+      "<input type='text'>"
+    ],
+    "answer": "<textarea></textarea>",
+    "difficulty": "medium"
+  },
+  {
+    "question": "Which attribute is used to specify the height of an image?",
+    "options": [
+      "height",
+      "size",
+      "width",
+      "img-height"
+    ],
+    "answer": "height",
+    "difficulty": "medium"
+  },
+  {
+    "question": "What is the correct HTML for creating a drop-down list?",
+    "options": [
+      "<select>",
+      "<dropdown>",
+      "<list>",
+      "<input type='dropdown'>"
+    ],
+    "answer": "<select>",
+    "difficulty": "medium"
+  },
+  {
+    "question": "Which HTML element is used to define a clickable button?",
+    "options": [
+      "<button>",
+      "<click>",
+      "<input type='button'>",
+      "<btn>"
+    ],
+    "answer": "<button>",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Which HTML element is used to define a navigation link?",
+    "options": [
+      "<nav>",
+      "<link>",
+      "<a>",
+      "<menu>"
+    ],
+    "answer": "<a>",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is the purpose of the <script> tag in HTML?",
+    "options": [
+      "To define client-side scripts",
+      "To link to external stylesheets",
+      "To create hyperlinks",
+      "To embed images"
+    ],
+    "answer": "To define client-side scripts",
+    "difficulty": "medium"
+  },
+  {
+    "question": "Which HTML tag is used to create a horizontal line?",
+    "options": [
+      "<hr>",
+      "<line>",
+      "<hline>",
+      "<br>"
+    ],
+    "answer": "<hr>",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is the correct HTML for adding a background color?",
+    "options": [
+      "<body style='background-color:blue;'>",
+      "<body bg='blue'>",
+      "<background color='blue'>",
+      "<body background='blue'>"
+    ],
+    "answer": "<body style='background-color:blue;'>",
+    "difficulty": "medium"
+  },
+  {
+    "question": "Which HTML element is used to define a section in a document?",
+    "options": [
+      "<section>",
+      "<div>",
+      "<article>",
+      "<header>"
+    ],
+    "answer": "<section>",
+    "difficulty": "medium"
+  },
+  {
+    "question": "How do you create a dropdown list in HTML?",
+    "options": [
+      "<select>",
+      "<dropdown>",
+      "<list>",
+      "<input type='dropdown'>"
+    ],
+    "answer": "<select>",
+    "difficulty": "medium"
+  },
+  {
+    "question": "Which HTML element is used to define a navigation bar?",
+    "options": [
+      "<nav>",
+      "<navigation>",
+      "<menu>",
+      "<header>"
+    ],
+    "answer": "<nav>",
+    "difficulty": "medium"
+  },
+  {
+    "question": "What is the purpose of the <link> tag in HTML?",
+    "options": [
+      "To link to external stylesheets",
+      "To create hyperlinks",
+      "To define JavaScript files",
+      "To embed images"
+    ],
+    "answer": "To link to external stylesheets",
+    "difficulty": "medium"
+  },
+  {
+    "question": "Which HTML element is used to define an article?",
+    "options": [
+      "<article>",
+      "<section>",
+      "<div>",
+      "<content>"
+    ],
+    "answer": "<article>",
+    "difficulty": "medium"
+  },
+  {
+    "question": "How do you specify an image as a link in HTML?",
+    "options": [
+      "<a href='url'><img src='image.jpg'></a>",
+      "<img href='url' src='image.jpg'>",
+      "<link href='url'><img src='image.jpg'></link>",
+      "<a img='image.jpg' href='url'></a>"
+    ],
+    "answer": "<a href='url'><img src='image.jpg'></a>",
+    "difficulty": "medium"
+  },
+  {
+    "question": "What is the correct HTML for creating a radio button?",
+    "options": [
+      "<input type='radio'>",
+      "<radio>",
+      "<input type='rad'>",
+      "<input radio='true'>"
+    ],
+    "answer": "<input type='radio'>",
+    "difficulty": "medium"
+  },
+  {
+    "question": "Which tag is used to define an inline frame?",
+    "options": [
+      "<iframe>",
+      "<frame>",
+      "<inline>",
+      "<img>"
+    ],
+    "answer": "<iframe>",
+    "difficulty": "medium"
+  },
+  {
+    "question": "What is the default value of the type attribute for the <button> element?",
+    "options": [
+      "button",
+      "submit",
+      "reset",
+      "action"
+    ],
+    "answer": "submit",
+    "difficulty": "medium"
+  },
+  {
+    "question": "Which HTML element is used to define a sidebar?",
+    "options": [
+      "<aside>",
+      "<sidebar>",
+      "<section>",
+      "<nav>"
+    ],
+    "answer": "<aside>",
+    "difficulty": "medium"
+  },
+  {
+    "question": "What is the purpose of the <canvas> element in HTML?",
+    "options": [
+      "To draw graphics on the fly via scripting",
+      "To display images",
+      "To create tables",
+      "To embed videos"
+    ],
+    "answer": "To draw graphics on the fly via scripting",
+    "difficulty": "hard"
+  },
+  {
+    "question": "Which HTML element is used to define a header for a document or section?",
+    "options": [
+      "<header>",
+      "<head>",
+      "<h1>",
+      "<top>"
+    ],
+    "answer": "<header>",
+    "difficulty": "medium"
+  },
+  {
+    "question": "How do you create a text area in HTML?",
+    "options": [
+      "<textarea></textarea>",
+      "<text></text>",
+      "<input type='textarea'>",
+      "<input type='text'>"
+    ],
+    "answer": "<textarea></textarea>",
+    "difficulty": "medium"
+  },
+  {
+    "question": "Which attribute is used to specify the height of an image?",
+    "options": [
+      "height",
+      "size",
+      "width",
+      "img-height"
+    ],
+    "answer": "height",
+    "difficulty": "medium"
+  },
+  {
+    "question": "What is the correct HTML for creating a drop-down list?",
+    "options": [
+      "<select>",
+      "<dropdown>",
+      "<list>",
+      "<input type='dropdown'>"
+    ],
+    "answer": "<select>",
+    "difficulty": "medium"
+  },
+  {
+    "question": "Which HTML element is used to define a clickable button?",
+    "options": [
+      "<button>",
+      "<click>",
+      "<input type='button'>",
+      "<btn>"
+    ],
+    "answer": "<button>",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Which HTML element is used to define a navigation link?",
+    "options": [
+      "<nav>",
+      "<link>",
+      "<a>",
+      "<menu>"
+    ],
+    "answer": "<a>",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is the purpose of the <script> tag in HTML?",
+    "options": [
+      "To define client-side scripts",
+      "To link to external stylesheets",
+      "To create hyperlinks",
+      "To embed images"
+    ],
+    "answer": "To define client-side scripts",
+    "difficulty": "medium"
+  },
+  {
+    "question": "Which HTML tag is used to create a horizontal line?",
+    "options": [
+      "<hr>",
+      "<line>",
+      "<hline>",
+      "<br>"
+    ],
+    "answer": "<hr>",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is the correct HTML for adding a background color?",
+    "options": [
+      "<body style='background-color:blue;'>",
+      "<body bg='blue'>",
+      "<background color='blue'>",
+      "<body background='blue'>"
+    ],
+    "answer": "<body style='background-color:blue;'>",
+    "difficulty": "medium"
+  },
+  {
+    "question": "Which HTML element is used to define a section in a document?",
+    "options": [
+      "<section>",
+      "<div>",
+      "<article>",
+      "<header>"
+    ],
+    "answer": "<section>",
+    "difficulty": "medium"
+  }
+]

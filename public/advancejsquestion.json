@@ -1,0 +1,1412 @@
+
+
+  [
+    {
+        "question": "What does the Fetch API return by default?",
+        "options": [
+            "Promise",
+            "XMLHttpRequest",
+            "Response object",
+            "String"
+        ],
+        "answer": "Promise",
+        "difficulty": "easy"
+    },
+    {
+        "question": "How do you handle errors when using Fetch API?",
+        "options": [
+            "Using try/catch blocks",
+            "Using .catch() method",
+            "Using .then() method",
+            "Errors are automatically handled"
+        ],
+        "answer": "Using .catch() method",
+        "difficulty": "medium"
+    },
+    {
+        "question": "What method is used to send a POST request with Fetch API?",
+        "options": [
+            "fetch(url, { method: 'POST' })",
+            "fetch(url, { method: 'GET' })",
+            "fetch(url, { method: 'PUT' })",
+            "fetch(url, { method: 'DELETE' })"
+        ],
+        "answer": "fetch(url, { method: 'POST' })",
+        "difficulty": "medium"
+    },
+    {
+        "question": "How can you convert a Response object to JSON?",
+        "options": [
+            "response.toJSON()",
+            "response.json()",
+            "JSON.parse(response)",
+            "response.getJSON()"
+        ],
+        "answer": "response.json()",
+        "difficulty": "easy"
+    },
+    {
+        "question": "Which method of the Fetch API is used to send data?",
+        "options": [
+            "POST",
+            "GET",
+            "PUT",
+            "DELETE"
+        ],
+        "answer": "POST",
+        "difficulty": "medium"
+    },
+    {
+        "question": "What is the default request method of Fetch API if not specified?",
+        "options": [
+            "GET",
+            "POST",
+            "PUT",
+            "DELETE"
+        ],
+        "answer": "GET",
+        "difficulty": "easy"
+    },
+    {
+        "question": "How can you set headers in a Fetch request?",
+        "options": [
+            "fetch(url, { headers: {} })",
+            "fetch(url, { header: {} })",
+            "fetch(url, { meta: {} })",
+            "fetch(url, { options: {} })"
+        ],
+        "answer": "fetch(url, { headers: {} })",
+        "difficulty": "medium"
+    },
+    {
+        "question": "Which of the following is true about the Fetch API?",
+        "options": [
+            "It is a synchronous API.",
+            "It returns a Promise.",
+            "It does not support headers.",
+            "It cannot handle network errors."
+        ],
+        "answer": "It returns a Promise.",
+        "difficulty": "medium"
+    },
+    {
+        "question": "How can you send a PUT request using the Fetch API?",
+        "options": [
+            "fetch(url, { method: 'PUT' })",
+            "fetch(url, { type: 'PUT' })",
+            "fetch(url, { action: 'PUT' })",
+            "fetch(url, { request: 'PUT' })"
+        ],
+        "answer": "fetch(url, { method: 'PUT' })",
+        "difficulty": "medium"
+    },
+    {
+        "question": "What type of data does the .json() method return?",
+        "options": [
+            "Text",
+            "Blob",
+            "JSON object",
+            "FormData"
+        ],
+        "answer": "JSON object",
+        "difficulty": "easy"
+    },
+    {
+        "question": "How do you access the status code of a Response object?",
+        "options": [
+            "response.statusCode",
+            "response.code",
+            "response.status",
+            "response.getCode()"
+        ],
+        "answer": "response.status",
+        "difficulty": "easy"
+    },
+    {
+        "question": "What does the Fetch API’s .then() method receive as an argument?",
+        "options": [
+            "Response object",
+            "Error object",
+            "JSON data",
+            "Text string"
+        ],
+        "answer": "Response object",
+        "difficulty": "easy"
+    },
+    {
+        "question": "How do you handle non-200 HTTP status codes with Fetch?",
+        "options": [
+            "Check response.ok property",
+            "Check response.status",
+            "Use .catch() method",
+            "Use .finally() method"
+        ],
+        "answer": "Check response.ok property",
+        "difficulty": "medium"
+    },
+    {
+        "question": "Which method is used to convert the response to text?",
+        "options": [
+            "response.text()",
+            "response.string()",
+            "response.toText()",
+            "response.getText()"
+        ],
+        "answer": "response.text()",
+        "difficulty": "easy"
+    },
+    {
+        "question": "Can the Fetch API handle cross-origin requests?",
+        "options": [
+            "Yes, but requires CORS headers",
+            "No, it can only handle same-origin requests",
+            "Yes, without any special configuration",
+            "No, you need to use XMLHttpRequest"
+        ],
+        "answer": "Yes, but requires CORS headers",
+        "difficulty": "medium"
+    },
+    {
+        "question": "How do you pass query parameters in a Fetch API request?",
+        "options": [
+            "Append them to the URL",
+            "Include them in the body",
+            "Add them in headers",
+            "Use a special query method"
+        ],
+        "answer": "Append them to the URL",
+        "difficulty": "easy"
+    },
+    {
+        "question": "What is the purpose of the Fetch API’s .finally() method?",
+        "options": [
+            "To execute code regardless of the outcome",
+            "To handle success cases only",
+            "To handle failure cases only",
+            "To parse the response"
+        ],
+        "answer": "To execute code regardless of the outcome",
+        "difficulty": "medium"
+    },
+    {
+        "question": "How can you specify the request body in a Fetch API request?",
+        "options": [
+            "Use the body property in options",
+            "Use the data property in options",
+            "Use the payload property in options",
+            "Include it in the URL"
+        ],
+        "answer": "Use the body property in options",
+        "difficulty": "medium"
+    },
+    {
+        "question": "What type of object does the .json() method return?",
+        "options": [
+            "JavaScript object",
+            "String",
+            "HTML element",
+            "ArrayBuffer"
+        ],
+        "answer": "JavaScript object",
+        "difficulty": "easy"
+    },
+    {
+        "question": "How do you set the request method to 'DELETE' in Fetch API?",
+        "options": [
+            "fetch(url, { method: 'DELETE' })",
+            "fetch(url, { type: 'DELETE' })",
+            "fetch(url, { action: 'DELETE' })",
+            "fetch(url, { request: 'DELETE' })"
+        ],
+        "answer": "fetch(url, { method: 'DELETE' })",
+        "difficulty": "medium"
+    },
+    {
+        "question": "What property of the Response object gives you the response headers?",
+        "options": [
+            "response.headers",
+            "response.getHeaders()",
+            "response.header()",
+            "response.getHeader()"
+        ],
+        "answer": "response.headers",
+        "difficulty": "medium"
+    },
+    {
+        "question": "What does the .ok property of a Response object indicate?",
+        "options": [
+            "The request was successful",
+            "The request failed",
+            "The response is being processed",
+            "The response has no content"
+        ],
+        "answer": "The request was successful",
+        "difficulty": "medium"
+    },
+    {
+        "question": "Can you cancel a Fetch request?",
+        "options": [
+            "No, the Fetch API does not support request cancellation",
+            "Yes, by using the AbortController",
+            "Yes, by setting a timeout",
+            "No, but you can ignore the response"
+        ],
+        "answer": "Yes, by using the AbortController",
+        "difficulty": "hard"
+    },
+    {
+        "question": "What is the purpose of the AbortController in Fetch API?",
+        "options": [
+            "To cancel a fetch request",
+            "To handle errors",
+            "To parse the response",
+            "To set request headers"
+        ],
+        "answer": "To cancel a fetch request",
+        "difficulty": "hard"
+    },
+    {
+        "question": "How do you attach an AbortController to a Fetch request?",
+        "options": [
+            "Add it to the options object",
+            "Include it in the URL",
+            "Use it in the headers",
+            "Attach it using a special method"
+        ],
+        "answer": "Add it to the options object",
+        "difficulty": "hard"
+    },
+    {
+        "question": "What does the .statusText property of the Response object represent?",
+        "options": [
+            "The status message of the response",
+            "The URL of the request",
+            "The response body",
+            "The request method"
+        ],
+        "answer": "The status message of the response",
+        "difficulty": "medium"
+    },
+    {
+        "question": "What is a callback function in JavaScript?",
+        "options": [
+          "A function passed as an argument to another function",
+          "A function that returns another function",
+          "A function that is called automatically",
+          "None of the above"
+        ],
+        "answer": "A function passed as an argument to another function",
+        "difficulty": "hard"
+      },
+      {
+        "question": "How do you define a function that takes a callback as an argument?",
+        "options": [
+          "function myFunction(callback) { }",
+          "myFunction(callback) { }",
+          "function myFunction(callback) => { }",
+          "function myFunction(callback) -> { }"
+        ],
+        "answer": "function myFunction(callback) { }",
+        "difficulty": "hard"
+      },
+      {
+        "question": "What will the following code output? \nsetTimeout(() => console.log('Hello'), 1000);",
+        "options": [
+          "Hello",
+          "undefined",
+          "Error",
+          "Nothing"
+        ],
+        "answer": "Hello",
+        "difficulty": "hard"
+      },
+      {
+        "question": "What is the purpose of the async keyword in JavaScript?",
+        "options": [
+          "To define an asynchronous function",
+          "To create a callback function",
+          "To return a promise",
+          "None of the above"
+        ],
+        "answer": "To define an asynchronous function",
+        "difficulty": "hard"
+      },
+      {
+        "question": "How do you handle errors in an async function?",
+        "options": [
+          "Using try-catch",
+          "Using .catch() with promises",
+          "Both A and B",
+          "None of the above"
+        ],
+        "answer": "Both A and B",
+        "difficulty": "hard"
+      },
+      {
+        "question": "What does the await keyword do?",
+        "options": [
+          "Pauses the execution of an async function until the promise is resolved",
+          "Creates a new promise",
+          "Defines a callback function",
+          "None of the above"
+        ],
+        "answer": "Pauses the execution of an async function until the promise is resolved",
+        "difficulty": "hard"
+      },
+      {
+        "question": "What will the following code output? \nasync function foo() { return 1;\n } console.log(foo());",
+        "options": [
+          "1",
+          "Promise { 1 }",
+          "undefined",
+          "Error"
+        ],
+        "answer": "Promise { 1 }",
+        "difficulty": "hard"
+      },
+      {
+        "question": "How do you parse a JSON string into a JavaScript object?",
+        "options": [
+          "JSON.parse(jsonString);",
+          "JSON.stringify(jsonString);",
+          "parseJSON(jsonString);",
+          "None of the above"
+        ],
+        "answer": "JSON.parse(jsonString);",
+        "difficulty": "hard"
+      },
+      {
+        "question": "What will the following code output? \nconsole.log(JSON.stringify({ name: 'John', age: 30 }));",
+        "options": [
+          "{ name: 'John', age: 30 }",
+          "{\"name\":\"John\",\"age\":30}",
+          "Error",
+          "undefined"
+        ],
+        "answer": "{\"name\":\"John\",\"age\":30}", 
+        "difficulty": "hard"
+      },
+      {
+        "question": "How do you store data in local storage?",
+        "options": [
+          "localStorage.setItem('key', 'value');",
+          "localStorage.add('key', 'value');",
+          "localStorage.store('key', 'value');",
+          "None of the above"
+        ],
+        "answer": "localStorage.setItem('key', 'value');",
+        "difficulty": "hard"
+      },
+      {
+        "question": "What will the following code output? \nlocalStorage.setItem('name', 'John'); \nconsole.log(localStorage.getItem('name'));",
+        "options": [
+          "John",
+          "name",
+          "undefined",
+          "Error"
+        ],
+        "answer": "John",
+        "difficulty": "hard"
+      },
+      {
+        "question": "What is the purpose of the removeItem() method in local storage?",
+        "options": [
+          "To remove a specified item from local storage",
+          "To clear all items from local storage",
+          "To update an item in local storage",
+          "None of the above"
+        ],
+        "answer": "To remove a specified item from local storage",
+        "difficulty": "hard"
+      },
+      {
+        "question": "How do you clear all data from local storage?",
+        "options": [
+          "localStorage.clear();",
+          "localStorage.removeAll();",
+          "localStorage.delete();",
+          "None of the above"
+        ],
+        "answer": "localStorage.clear();",
+        "difficulty": "hard"
+      },
+      {
+        "question": "What will the following code output? \nconsole.log(typeof localStorage);",
+        "options": [
+          "object",
+          "string",
+          "undefined",
+          "error"
+        ],
+        "answer": "object",
+        "difficulty": "hard"
+      },
+      {
+        "question": "What is the output of the following code? \nconsole.log(JSON.stringify(undefined));",
+        "options": [
+          "undefined",
+          "null",
+          "Error",
+          "undefined"
+        ],
+        "answer": "null",
+        "difficulty": "hard"
+      },
+      {
+        "question": "What will the following code output? \nconsole.log(JSON.parse('{name:John}'));",
+        "options": [
+          "{ name: 'John' }",
+          "{\"name\":\"John\"}",
+          "Error",
+          "undefined"
+        ],
+        "answer": "{\"name\":\"John\"}",
+        "difficulty": "hard"
+      },
+      {
+        "question": "What does the Object.keys() method do?",
+        "options": [
+          "Returns an array of a given object's property names",
+          "Returns an array of a given object's values",
+          "Returns the number of properties in an object",
+          "None of the above"
+        ],
+        "answer": "Returns an array of a given object's property names",
+        "difficulty": "hard"
+      },
+      {
+        "question": "What will the following code output? \nconsole.log(Object.keys({ a: 1, b: 2 }));",
+        "options": [
+          "[1, 2]",
+          "['a', 'b']",
+          "Error",
+          "undefined"
+        ],
+        "answer": "['a', 'b']",
+        "difficulty": "hard"
+      },
+      {
+        "question": "What is the output of the following code? \nconsole.log(1 + '1' + 1);",
+        "options": [
+          "111",
+          "12",
+          "error",
+          "undefined"
+        ],
+        "answer": "111",
+        "difficulty": "hard"
+      },
+      {
+        "question": "How do you check if a string contains a substring?",
+        "options": [
+          "string.includes(substring);",
+          "string.contains(substring);",
+          "string.indexOf(substring) !== -1;",
+          "Both A and C"
+        ],
+        "answer": "Both A and C",
+        "difficulty": "hard"
+      },
+      {
+        "question": "What is the purpose of the JSON.stringify() method?",
+        "options": [
+          "To convert a JavaScript object into a JSON string",
+          "To convert a JSON string into a JavaScript object",
+          "To parse JSON data",
+          "None of the above"
+        ],
+        "answer": "To convert a JavaScript object into a JSON string",
+        "difficulty": "hard"
+      },
+      {
+        "question": "What will the following code output? \nconsole.log('Hello'.repeat(3));",
+        "options": [
+          "HelloHelloHello",
+          "Hello 3 times",
+          "Error",
+          "undefined"
+        ],
+        "answer": "HelloHelloHello",
+        "difficulty": "hard"
+      },
+    {
+    "question": "What is the output of the following code? \nlet timer = setTimeout(() => { console.log('Timeout');\n }, 0); console.log('Start');",
+    "options": [
+      "Start\nTimeout",
+      "Timeout\nStart",
+      "Error",
+      "undefined"
+    ],
+    "answer": "Start\nTimeout",
+    "difficulty": "hard"
+  },
+  {
+    "question": "What will the following code output? \nlet i = 0; setInterval(() => { console.log(i++);\n }, 1000); setTimeout(() => { clearInterval(i);\n }, 5000);",
+    "options": [
+      "0 1 2 3 4 5",
+      "0 1 2 3 4",
+      "0 1 2 3 4 5 6 7 8 9",
+      "0 1 2 3"
+    ],
+    "answer": "0 1 2 3 4",
+    "difficulty": "hard"
+  },
+  {
+    "question": "What is the purpose of the clearTimeout() function in JavaScript?",
+    "options": [
+      "To cancel a timeout that was set using setTimeout()",
+      "To cancel an interval that was set using setInterval()",
+      "To create a new timeout",
+      "To create a new interval"
+    ],
+    "answer": "To cancel a timeout that was set using setTimeout()",
+    "difficulty": "hard"
+  },
+  {
+    "question": "What will the following code output? \nlet i = 0; \nlet interval = setInterval(() => { console.log(i++); \nif (i === 3) { clearInterval(interval);\n} }, 1000);",
+    "options": [
+      "0 1 2",
+      "0 1 2 3",
+      "0 1 2 3 4",
+      "0 1 2 4"
+    ],
+    "answer": "0 1 2",
+    "difficulty": "hard"
+  },
+  {
+    "question": "What is the output of the following code? \nlet i = 0; \nlet interval = setInterval(() => { \nconsole.log(i++); }, 1000); \nsetTimeout(() => { clearInterval(interval);\n }, 3000);",
+    "options": [
+      "0 1 2 3",
+      "0 1 2",
+      "0 1 2 3 4 5",
+      "0 1 2 3 4"
+    ],
+    "answer": "0 1 2",
+    "difficulty": "hard"
+  },
+  {
+    "question": "What is the purpose of the clearInterval() function in JavaScript?",
+    "options": [
+      "To cancel an interval that was set using setInterval()",
+      "To cancel a timeout that was set using setTimeout()",
+      "To create a new interval",
+      "To create a new timeout"
+    ],
+    "answer": "To cancel an interval that was set using setInterval()",
+    "difficulty": "hard"
+  },
+  {
+    "question": "What will the following code output? \nlet i = 0; \nlet interval = setInterval(() => { \nconsole.log(i++); }, 1000); \nsetTimeout(() => { clearInterval(interval); \nconsole.log('Timeout'); }, 3000);",
+    "options": [
+      "0 1 2 Timeout",
+      "0 1 2 3 Timeout",
+      "0 1 2 Timeout 3",
+      "0 1 2 3"
+    ],
+    "answer": "0 1 2 Timeout",
+    "difficulty": "hard"
+  },
+  {
+    "question": "What is the output of the following code? \nlet i = 0; \nlet interval = setInterval(() => { \nconsole.log(i++); \nif (i === 3) { \nclearInterval(interval); \nconsole.log('Interval cleared'); } }, 1000);",
+    "options": [
+      "0 1 2 Interval cleared",
+      "0 1 2 3 Interval cleared",
+      "0 1 2",
+      "0 1 2 3"
+    ],
+    "answer": "0 1 2 Interval cleared",
+    "difficulty": "hard"
+  },
+  {
+    "question": "What will the following code output? \nlet i = 0; \nlet interval = setInterval(() => { \nconsole.log(i++); }, 1000); \nsetTimeout(() => { clearInterval(interval); \nconsole.log('Timeout'); }, 2500);",
+    "options": [
+      "0 1 2 Timeout",
+      "0 1 2 3 Timeout",
+      "0 1 2 Timeout 3",
+      "0 1 2 3"
+    ],
+    "answer": "0 1 2 Timeout",
+    "difficulty": "hard"
+  },
+  {
+    "question": "What is the purpose of the setTimeout() function in JavaScript?",
+    "options": [
+      "To execute a function after a specified delay",
+      "To execute a function repeatedly at a specified interval",
+      "To cancel a timeout",
+      "To cancel an interval"
+    ],
+    "answer": "To execute a function after a specified delay",
+    "difficulty": "hard"
+  },
+  {
+    "question": "What is the output of the following code? \nlet i = 0; \nlet interval = setInterval(() => { \nconsole.log(i++); \nif (i === 5) { \nclearInterval(interval); } }, 1000);",
+    "options": [
+      "0 1 2 3 4",
+      "0 1 2 3 4 5",
+      "0 1 2 3 4 5 6",
+      "0 1 2 3 4 5 6 7"
+    ],
+    "answer": "0 1 2 3 4",
+    "difficulty": "hard"
+  },
+  {
+    "question": "What will the following code output? \nlet i = 0; \nlet interval = setInterval(() => { \nconsole.log(i++); }, 1000); \nsetTimeout(() => { clearInterval(interval); \nconsole.log('Timeout'); }, 3500);",
+    "options": [
+      "0 1 2 3 Timeout",
+      "0 1 2 3 4 Timeout",
+      "0 1 2 Timeout 3",
+      "0 1 2 3 4"
+    ],
+    "answer": "0 1 2 3 Timeout",
+    "difficulty": "hard"
+  },
+  {
+    "question": "What is the difference between setTimeout() and setInterval() in JavaScript?",
+    "options": [
+      "setTimeout() executes a function once after a specified delay, while setInterval() executes a function repeatedly at a specified interval",
+      "setTimeout() executes a function repeatedly at a specified interval, while setInterval() executes a function once after a specified delay",
+      "There is no difference between the two functions",
+      "None of the above"
+    ],
+    "answer": "setTimeout() executes a function once after a specified delay, while setInterval() executes a function repeatedly at a specified interval",
+    "difficulty": "hard"
+  },
+  {
+    "question": "What is the output of the following code? \nlet i = 0; \nlet interval = setInterval(() => { \nconsole.log(i++); }, 1000); \nsetTimeout(() => { \nclearInterval(interval); }, 2000);",
+    "options": [
+      "0 1",
+      "0 1 2",
+      "0 1 2 3",
+      "0 1 2 3 4"
+    ],
+    "answer": "0 1",
+    "difficulty": "hard"
+  },
+  {
+    "question": "What will the following code output? \nlet i = 0; \nlet interval = setInterval(() => { \nconsole.log(i++); \nif (i === 2) { \nclearInterval(interval); \nconsole.log('Interval cleared'); } }, 1000);",
+    "options": [
+      "0 1 Interval cleared",
+      "0 1 2 Interval cleared",
+      "0 1",
+      "0 1 2"
+    ],
+    "answer": "0 1 Interval cleared",
+    "difficulty": "hard"
+  },
+    {
+        "question": "What is the output of the following code? \nlet timer = setTimeout(() => { \nconsole.log('Timeout'); }, 0); \nconsole.log('Start');",
+        "options": [
+          "Start\nTimeout",
+          "Timeout\nStart",
+          "Error",
+          "undefined"
+        ],
+        "answer": "Start\nTimeout",
+        "difficulty": "hard"
+      },
+      {
+        "question": "What will the following code output? \nlet i = 0; \nsetInterval(() => { \nconsole.log(i++); }, 1000); \nsetTimeout(() => { clearInterval(i); }, 5000);",
+        "options": [
+          "0 1 2 3 4 5",
+          "0 1 2 3 4",
+          "0 1 2 3 4 5 6 7 8 9",
+          "0 1 2 3"
+        ],
+        "answer": "0 1 2 3 4",
+        "difficulty": "hard"
+      },
+      {
+        "question": "What is the purpose of the clearTimeout() function in JavaScript?",
+        "options": [
+          "To cancel a timeout that was set using setTimeout()",
+          "To cancel an interval that was set using setInterval()",
+          "To create a new timeout",
+          "To create a new interval"
+        ],
+        "answer": "To cancel a timeout that was set using setTimeout()",
+        "difficulty": "hard"
+      },
+      {
+        "question": "What will the following code output? \nlet i = 0; \nlet interval = setInterval(() => { \nconsole.log(i++); \nif (i === 3) { \nclearInterval(interval); } }, 1000);",
+        "options": [
+          "0 1 2",
+          "0 1 2 3",
+          "0 1 2 3 4",
+          "0 1 2 4"
+        ],
+        "answer": "0 1 2",
+        "difficulty": "hard"
+      },
+      {
+        "question": "What is the output of the following code? \nlet i = 0; \nlet interval = setInterval(() => { \nconsole.log(i++); }, 1000); \nsetTimeout(() => { clearInterval(interval); }, 3000);",
+        "options": [
+          "0 1 2 3",
+          "0 1 2",
+          "0 1 2 3 4 5",
+          "0 1 2 3 4"
+        ],
+        "answer": "0 1 2",
+        "difficulty": "hard"
+      },
+      {
+        "question": "What is the purpose of the clearInterval() function in JavaScript?",
+        "options": [
+          "To cancel an interval that was set using setInterval()",
+          "To cancel a timeout that was set using setTimeout()",
+          "To create a new interval",
+          "To create a new timeout"
+        ],
+        "answer": "To cancel an interval that was set using setInterval()",
+        "difficulty": "hard"
+      },
+      {
+        "question": "What will the following code output? \nlet i = 0; \nlet interval = setInterval(() => { \nconsole.log(i++); }, 1000); \nsetTimeout(() => {clearInterval(interval); \nconsole.log('Timeout'); }, 3000);",
+        "options": [
+          "0 1 2 Timeout",
+          "0 1 2 3 Timeout",
+          "0 1 2 Timeout 3",
+          "0 1 2 3"
+        ],
+        "answer": "0 1 2 Timeout",
+        "difficulty": "hard"
+      },
+      {
+        "question": "What is the output of the following code? \nlet i = 0; \nlet interval = setInterval(() => { \nconsole.log(i++); \nif (i === 3) { clearInterval(interval); \nconsole.log('Interval cleared'); } }, 1000);",
+        "options": [
+          "0 1 2 Interval cleared",
+          "0 1 2 3 Interval cleared",
+          "0 1 2",
+          "0 1 2 3"
+        ],
+        "answer": "0 1 2 Interval cleared",
+        "difficulty": "hard"
+      },
+      {
+        "question": "What will the following code output? \nlet i = 0;\nlet interval = setInterval(() => { console.log(i++); }, 1000);\n setTimeout(() => { clearInterval(interval);\n console.log('Timeout'); }, 2500);",
+        "options": [
+          "0 1 2 Timeout",
+          "0 1 2 3 Timeout",
+          "0 1 2 Timeout 3",
+          "0 1 2 3"
+        ],
+        "answer": "0 1 2 Timeout",
+        "difficulty": "hard"
+      },
+      {
+        "question": "What is the purpose of the setTimeout() function in JavaScript?",
+        "options": [
+          "To execute a function after a specified delay",
+          "To execute a function repeatedly at a specified interval",
+          "To cancel a timeout",
+          "To cancel an interval"
+        ],
+        "answer": "To execute a function after a specified delay",
+        "difficulty": "hard"
+      },
+      {
+        "question": "What is the output of the following code? \nlet i = 0; \nlet interval = setInterval(() => { \nconsole.log(i++); \nif (i === 5) {\n clearInterval(interval); } }, 1000);",
+        "options": [
+          "0 1 2 3 4",
+          "0 1 2 3 4 5",
+          "0 1 2 3 4 5 6",
+          "0 1 2 3 4 5 6 7"
+        ],
+        "answer": "0 1 2 3 4",
+        "difficulty": "hard"
+      },
+      {
+        "question": "What will the following code output? \nlet i = 0; \nlet interval = setInterval(() => { \nconsole.log(i++); }, 1000); \nsetTimeout(() => { clearInterval(interval); \nconsole.log('Timeout'); }, 3500);",
+        "options": [
+          "0 1 2 3 Timeout",
+          "0 1 2 3 4 Timeout",
+          "0 1 2 Timeout 3",
+          "0 1 2 3 4"
+        ],
+        "answer": "0 1 2 3 Timeout",
+        "difficulty": "hard"
+      },
+      {
+        "question": "What is the difference between setTimeout() and setInterval() in JavaScript?",
+        "options": [
+          "setTimeout() executes a function once after a specified delay, while setInterval() executes a function repeatedly at a specified interval",
+          "setTimeout() executes a function repeatedly at a specified interval, while setInterval() executes a function once after a specified delay",
+          "There is no difference between the two functions",
+          "None of the above"
+        ],
+        "answer": "setTimeout() executes a function once after a specified delay, while setInterval() executes a function repeatedly at a specified interval",
+        "difficulty": "hard"
+      },
+      {
+        "question": "What is the output of the following code? \nlet i = 0; \nlet interval = setInterval(() => { console.log(i++); }, 1000); \nsetTimeout(() => { clearInterval(interval); }, 2000);",
+        "options": [
+          "0 1",
+          "0 1 2",
+          "0 1 2 3",
+          "0 1 2 3 4"
+        ],
+        "answer": "0 1",
+        "difficulty": "hard"
+      },
+      {
+        "question": "What will the following code output? \nlet i = 0; \nlet interval = setInterval(() => { \nconsole.log(i++); \nif (i === 2) { \nclearInterval(interval); \nconsole.log('Interval cleared'); } }, 1000);",
+        "options": [
+          "0 1 Interval cleared",
+          "0 1 2 Interval cleared",
+          "0 1",
+          "0 1 2"
+        ],
+        "answer": "0 1 Interval cleared",
+        "difficulty": "hard"
+      },
+    {
+        "question": "What is the purpose of the addEventListener() method?",
+        "options": [
+          "To attach an event handler to an element",
+          "To remove an event handler from an element",
+          "To trigger an event",
+          "None of the above"
+        ],
+        "answer": "To attach an event handler to an element",
+        "difficulty": "hard"
+      },
+      {
+        "question": "What will the following code output? \ndocument.getElementById('myButton').addEventListener('click', function() { \nconsole.log('Clicked!'); });",
+        "options": [
+          "'Clicked!' when the button is clicked",
+          "Nothing",
+          "Error",
+          "undefined"
+        ],
+        "answer": "'Clicked!' when the button is clicked",
+        "difficulty": "hard"
+      },
+      {
+        "question": "How do you prevent the default action of an event in JavaScript?",
+        "options": [
+          "event.stopPropagation();",
+          "event.preventDefault();",
+          "return false;",
+          "Both B and C"
+        ],
+        "answer": "Both B and C",
+        "difficulty": "hard"
+      },
+      {
+        "question": "What is event delegation?",
+        "options": [
+          "Attaching a single event listener to a parent element to manage events for multiple child elements",
+          "Creating multiple event listeners for each child element",
+          "Removing event listeners from child elements",
+          "None of the above"
+        ],
+        "answer": "Attaching a single event listener to a parent element to manage events for multiple child elements",
+        "difficulty": "hard"
+      },
+      {
+        "question": "What will the following code output? \ndocument.querySelector('button').addEventListener('click', function() { \nthis.innerHTML = 'Clicked!'; });",
+        "options": [
+          "'Clicked!' when the button is clicked",
+          "Nothing",
+          "Error",
+          "undefined"
+        ],
+        "answer": "'Clicked!' when the button is clicked",
+        "difficulty": "hard"
+      },
+      {
+        "question": "What does the 'this' keyword refer to inside an event handler?",
+        "options": [
+          "The element that fired the event",
+          "The global object",
+          "The document object",
+          "None of the above"
+        ],
+        "answer": "The element that fired the event",
+        "difficulty": "hard"
+      },
+      {
+        "question": "How can you remove an event listener in JavaScript?",
+        "options": [
+          "element.removeEventListener('event', function);",
+          "element.off('event', function);",
+          "element.deleteEventListener('event', function);",
+          "None of the above"
+        ],
+        "answer": "element.removeEventListener('event', function);",
+        "difficulty": "hard"
+      },
+      {
+        "question": "What is the purpose of the stopPropagation() method?",
+        "options": [
+          "To stop the event from bubbling up to parent elements",
+          "To stop the event from being handled",
+          "To prevent the default action of an event",
+          "None of the above"
+        ],
+        "answer": "To stop the event from bubbling up to parent elements",
+        "difficulty": "hard"
+      },
+      {
+        "question": "What will the following code output? \ndocument.getElementById('myDiv').addEventListener('click', function(event) { \nconsole.log(event.target); });",
+        "options": [
+          "The element that was clicked",
+          "The parent element",
+          "The document object",
+          "undefined"
+        ],
+        "answer": "The element that was clicked",
+        "difficulty": "hard"
+      },
+      {
+        "question": "What is the purpose of the event object?",
+        "options": [
+          "To provide information about the event that occurred",
+          "To store data about the element that triggered the event",
+          "To manage multiple events",
+          "None of the above"
+        ],
+        "answer": "To provide information about the event that occurred",
+        "difficulty": "hard"
+      },
+      {
+        "question": "How do you listen for multiple events on the same element?",
+        "options": [
+          "element.addEventListener('event1', handler); element.addEventListener('event2', handler);",
+          "element.on('event1 event2', handler);",
+          "element.addEventListener('event1, event2', handler);",
+          "None of the above"
+        ],
+        "answer": "element.addEventListener('event1', handler); element.addEventListener('event2', handler);",
+        "difficulty": "hard"
+      },
+      {
+        "question": "What will the following code output? \ndocument.getElementById('myButton').addEventListener('click', function() { \nconsole.log(this); });",
+        "options": [
+          "The button element itself",
+          "The window object",
+          "The document object",
+          "undefined"
+        ],
+        "answer": "The button element itself",
+        "difficulty": "hard"
+      },
+      {
+        "question": "What does the preventDefault() method do?",
+        "options": [
+          "Prevents the default action of an event from occurring",
+          "Stops the event from propagating",
+          "Both A and B",
+          "None of the above"
+        ],
+        "answer": "Prevents the default action of an event from occurring",
+        "difficulty": "hard"
+      },
+      {
+        "question": "What is the output of the following code? \ndocument.getElementById('myDiv').addEventListener('click', function(event) { \nconsole.log(event.currentTarget); });",
+        "options": [
+          "The element to which the event handler is attached",
+          "The element that triggered the event",
+          "The document object",
+          "undefined"
+        ],
+        "answer": "The element to which the event handler is attached",
+        "difficulty": "hard"
+      },
+      {
+        "question": "How do you create a custom event in JavaScript?",
+        "options": [
+          "let event = new Event('eventName');",
+          "let event = new CustomEvent('eventName');",
+          "Both A and B",
+          "None of the above"
+        ],
+        "answer": "Both A and B",
+        "difficulty": "hard"
+      },
+      {
+        "question": "What is the purpose of the dispatchEvent() method?",
+        "options": [
+          "To trigger an event on an element",
+          "To create a new event",
+          "To remove an event listener",
+          "None of the above"
+        ],
+        "answer": "To trigger an event on an element",
+        "difficulty": "hard"
+      },
+      {
+        "question": "What will the following code output? \ndocument.getElementById('myDiv').addEventListener('mouseover', function() { \nthis.style.backgroundColor = 'yellow'; });",
+        "options": [
+          "Changes the background color of the div to yellow on mouseover",
+          "Nothing",
+          "Error",
+          "undefined"
+        ],
+        "answer": "Changes the background color of the div to yellow on mouseover",
+        "difficulty": "hard"
+      },
+      {
+        "question": "What is event bubbling?",
+        "options": [
+          "When an event starts at the target element and bubbles up to the parent elements",
+          "When an event starts at the parent element and bubbles down to the target element",
+          "When an event is triggered multiple times",
+          "None of the above"
+        ],
+        "answer": "When an event starts at the target element and bubbles up to the parent elements",
+        "difficulty": "hard"
+      },
+      {
+        "question": "What will the following code output? \ndocument.getElementById('myDiv').addEventListener('click', function(event) { \nconsole.log(event.stopImmediatePropagation()); });",
+        "options": [
+          "undefined",
+          "true",
+          "false",
+          "Error"
+        ],
+        "answer": "undefined",
+        "difficulty": "hard"
+      },
+      {
+        "question": "What is the purpose of the focus event?",
+        "options": [
+          "To detect when an element gains focus",
+          "To detect when an element loses focus",
+          "To handle keyboard events",
+          "None of the above"
+        ],
+        "answer": "To detect when an element gains focus",
+        "difficulty": "hard"
+      },
+      {
+        "question": "How do you listen for the keydown event on an input field?",
+        "options": [
+          "inputField.addEventListener('keydown', function() { });",
+          "inputField.onkeydown = function() { };",
+          "Both A and B",
+          "None of the above"
+        ],
+        "answer": "Both A and B",
+        "difficulty": "hard"
+      },
+      {
+        "question": "What will the following code output? \ndocument.getElementById('myButton').addEventListener('click', function() { \nalert(this.innerHTML); });",
+        "options": [
+          "The inner HTML of the button",
+          "Nothing",
+          "Error",
+          "undefined"
+        ],
+        "answer": "The inner HTML of the button",
+        "difficulty": "hard"
+      },
+      {
+        "question": "What is the output of the following code? \ndocument.getElementById('myDiv').addEventListener('click', function(event) \n{ console.log(event.target); });",
+        "options": [
+          "The element that triggered the event",
+          "The parent element",
+          "The document object",
+          "undefined"
+        ],
+        "answer": "The element that triggered the event",
+        "difficulty": "hard"
+      },
+  {
+    "question": "What does the method document.getElementById() return?",
+    "options": [
+      "The first element with the specified ID",
+      "All elements with the specified ID",
+      "The element with the specified class",
+      "None of the above"
+    ],
+    "answer": "The first element with the specified ID",
+    "difficulty": "hard"
+  },
+  {
+    "question": "How do you select all paragraphs in the document?",
+    "options": [
+      "document.querySelectorAll('p')",
+      "document.getElementsByTagName('p')",
+      "Both A and B",
+      "document.selectAll('p')"
+    ],
+    "answer": "Both A and B",
+    "difficulty": "hard"
+  },
+  {
+    "question": "What will the following code output? \nconsole.log(document.body);",
+    "options": [
+      "The <body> element of the document",
+      "The entire HTML document",
+      "An error",
+      "undefined"
+    ],
+    "answer": "The <body> element of the document",
+    "difficulty": "hard"
+  },
+  {
+    "question": "What does the method element.appendChild() do?",
+    "options": [
+      "Adds a new child node to the specified element",
+      "Removes a child node from the specified element",
+      "Replaces a child node",
+      "None of the above"
+    ],
+    "answer": "Adds a new child node to the specified element",
+    "difficulty": "hard"
+  },
+  {
+    "question": "How do you change the text content of an element?",
+    "options": [
+      "element.innerHTML = 'new text';",
+      "element.textContent = 'new text';",
+      "Both A and B",
+      "element.changeText('new text');"
+    ],
+    "answer": "Both A and B",
+    "difficulty": "hard"
+  },
+  {
+    "question": "What will the following code output? \nconsole.log(document.querySelector('div').innerText);",
+    "options": [
+      "The text inside the first <div>",
+      "The HTML of the first <div>",
+      "An error",
+      "undefined"
+    ],
+    "answer": "The text inside the first <div>",
+    "difficulty": "hard"
+  },
+  {
+    "question": "How do you remove an element from the DOM?",
+    "options": [
+      "element.remove();",
+      "document.remove(element);",
+      "element.delete();",
+      "document.removeChild(element);"
+    ],
+    "answer": "element.remove();",
+    "difficulty": "hard"
+  },
+  {
+    "question": "What does the method document.createElement() do?",
+    "options": [
+      "Creates a new HTML element",
+      "Removes an existing HTML element",
+      "Selects an existing HTML element",
+      "None of the above"
+    ],
+    "answer": "Creates a new HTML element",
+    "difficulty": "hard"
+  },
+  {
+    "question": "How do you set an attribute of an element?",
+    "options": [
+      "element.setAttribute('attr', 'value');",
+      "element.attr = 'value';",
+      "element.set('attr', 'value');",
+      "element.addAttribute('attr', 'value');"
+    ],
+    "answer": "element.setAttribute('attr', 'value');",
+    "difficulty": "hard"
+  },
+  {
+    "question": "What will the following code do? \nconst newDiv = document.createElement('div');",
+    "options": [
+      "Create a new <div> element",
+      "Select an existing <div> element",
+      "Remove a <div> element",
+      "None of the above"
+    ],
+    "answer": "Create a new <div> element",
+    "difficulty": "hard"
+  },
+  {
+    "question": "What method would you use to find the first child of a node?",
+    "options": [
+      "firstChild",
+      "childNodes[0]",
+      "children[0]",
+      "Both A and B"
+    ],
+    "answer": "Both A and B",
+    "difficulty": "hard"
+  },
+  {
+    "question": "How do you check if an element has a specific class?",
+    "options": [
+      "element.classList.contains('className')",
+      "element.hasClass('className')",
+      "element.className.includes('className')",
+      "None of the above"
+    ],
+    "answer": "element.classList.contains('className')",
+    "difficulty": "hard"
+  },
+  {
+    "question": "What will the following code output? \nconsole.log(document.querySelectorAll('p').length);",
+    "options": [
+      "The number of <p> elements in the document",
+      "The length of the text inside <p> elements",
+      "An error",
+      "undefined"
+    ],
+    "answer": "The number of <p> elements in the document",
+    "difficulty": "hard"
+  },
+  {
+    "question": "How do you change the style of an element?",
+    "options": [
+      "element.style.property = 'value';",
+      "element.setStyle('property', 'value');",
+      "element.style.set('property', 'value');",
+      "None of the above"
+    ],
+    "answer": "element.style.property = 'value';",
+    "difficulty": "hard"
+  },
+  {
+    "question": "What does the method element.classList.add() do?",
+    "options": [
+      "Adds a class to an element",
+      "Removes a class from an element",
+      "Checks if an element has a class",
+      "None of the above"
+    ],
+    "answer": "Adds a class to an element",
+    "difficulty": "hard"
+  },
+  {
+    "question": "How do you replace an existing element with a new one?",
+    "options": [
+      "element.replaceWith(newElement);",
+      "element.replace(newElement);",
+      "element.swap(newElement);",
+      "None of the above"
+    ],
+    "answer": "element.replaceWith(newElement);",
+    "difficulty": "hard"
+  },
+  {
+    "question": "What will the following code output? \nconsole.log(document.body.childNodes);",
+    "options": [
+      "All child nodes of the body",
+      "Only element children of the body",
+      "An error",
+      "undefined"
+    ],
+    "answer": "All child nodes of the body",
+    "difficulty": "hard"
+  },
+  {
+    "question": "How do you get the value of an input element?",
+    "options": [
+      "inputElement.value",
+      "inputElement.getValue()",
+      "inputElement.innerHTML",
+      "inputElement.textContent"
+    ],
+    "answer": "inputElement.value",
+    "difficulty": "hard"
+  },
+  {
+    "question": "What does the method document.querySelector() return?",
+    "options": [
+      "The first element that matches a specified CSS selector",
+      "All elements that match a specified CSS selector",
+      "An array of elements",
+      "None of the above"
+    ],
+    "answer": "The first element that matches a specified CSS selector",
+    "difficulty": "hard"
+  },
+  {
+    "question": "What will the following code output? \nconsole.log(document.getElementsByClassName('myClass').length);",
+    "options": [
+      "The number of elements with the class 'myClass'",
+      "The length of the class name",
+      "An error",
+      "undefined"
+    ],
+    "answer": "The number of elements with the class 'myClass'",
+    "difficulty": "hard"
+  },
+  {
+    "question": "How do you remove a class from an element?",
+    "options": [
+      "element.classList.remove('className');",
+      "element.removeClass('className');",
+      "element.className = '';",
+      "None of the above"
+    ],
+    "answer": "element.classList.remove('className');",
+    "difficulty": "hard"
+  },
+  {
+    "question": "What does the method element.insertAdjacentHTML() do?",
+    "options": [
+      "Inserts HTML into the DOM at a specified position",
+      "Replaces existing HTML",
+      "Removes HTML from the DOM",
+      "None of the above"
+    ],
+    "answer": "Inserts HTML into the DOM at a specified position",
+    "difficulty": "hard"
+  },
+  {
+    "question": "How do you create a new text node in the DOM?",
+    "options": [
+      "document.createTextNode('text');",
+      "new TextNode('text');",
+      "document.createElement('text');",
+      "document.newText('text');"
+    ],
+    "answer": "document.createTextNode('text');",
+    "difficulty": "hard"
+  },
+  {
+    "question": "What will the following code output? \nconsole.log(document.title);",
+    "options": [
+      "The title of the document",
+      "The URL of the document",
+      "An error",
+      "undefined"
+    ],
+    "answer": "The title of the document",
+    "difficulty": "hard"
+  },
+  {
+    "question": "How do you create an event listener for a button click?",
+    "options": [
+      "button.addEventListener('click', function() { });",
+      "button.onClick = function() { };",
+      "button.click(function() { });",
+      "None of the above"
+    ],
+    "answer": "button.addEventListener('click', function() { });",
+    "difficulty": "hard"
+  },
+  {
+    "question": "What is the output of the following code? \nconsole.log(typeof document.getElementsByTagName('p'));",
+    "options": [
+      "HTMLCollection",
+      "NodeList",
+      "Array",
+      "object"
+    ],
+    "answer": "HTMLCollection",
+    "difficulty": "hard"
+  },
+  {
+    "question": "What does the method element.scrollIntoView() do?",
+    "options": [
+      "Scrolls the element into the visible area of the browser window",
+      "Scrolls the page to the top",
+      "Hides the element",
+      "None of the above"
+    ],
+    "answer": "Scrolls the element into the visible area of the browser window",
+    "difficulty": "hard"
+  }
+]

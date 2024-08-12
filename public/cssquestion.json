@@ -1,0 +1,1158 @@
+
+[
+  {
+    "question": "What does CSS stand for?",
+    "options": [
+      "Cascading Style Sheets",
+      "Computer Style Sheets",
+      "Creative Style Sheets",
+      "Colorful Style Sheets"
+    ],
+    "answer": "Cascading Style Sheets",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Which of the following is a valid CSS selector?",
+    "options": [
+      "#header",
+      ".className",
+      "div",
+      "All of the above"
+    ],
+    "answer": "All of the above",
+    "difficulty": "easy"
+  },
+  {
+    "question": "How do you apply a style to an HTML element?",
+    "options": [
+      "Using the style attribute",
+      "Using the class attribute",
+      "Using the id attribute",
+      "All of the above"
+    ],
+    "answer": "All of the above",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is the correct syntax for adding a background color in CSS?",
+    "options": [
+      "background-color: #ffffff;",
+      "bgcolor: #ffffff;",
+      "background: #ffffff;",
+      "Both A and C"
+    ],
+    "answer": "Both A and C",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Which property is used to change the font of an element?",
+    "options": [
+      "font-family",
+      "font-style",
+      "font-weight",
+      "text-font"
+    ],
+    "answer": "font-family",
+    "difficulty": "easy"
+  },
+  {
+    "question": "How do you make a list not display bullet points in CSS?",
+    "options": [
+      "list-style-type: none;",
+      "list-style: none;",
+      "Both A and B",
+      "None of the above"
+    ],
+    "answer": "Both A and B",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is the default value of the position property?",
+    "options": [
+      "static",
+      "relative",
+      "absolute",
+      "fixed"
+    ],
+    "answer": "static",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Which CSS property controls the text size?",
+    "options": [
+      "font-size",
+      "text-size",
+      "text-style",
+      "font-style"
+    ],
+    "answer": "font-size",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What does the z-index property do?",
+    "options": [
+      "Controls the vertical stacking order of elements",
+      "Controls the horizontal position of elements",
+      "Controls the opacity of elements",
+      "None of the above"
+    ],
+    "answer": "Controls the vertical stacking order of elements",
+    "difficulty": "medium"
+  },
+  {
+    "question": "How do you center a block element horizontally?",
+    "options": [
+      "margin: auto;",
+      "text-align: center;",
+      "display: flex;",
+      "position: center;"
+    ],
+    "answer": "margin: auto;",
+    "difficulty": "medium"
+  },
+  {
+    "question": "Which property is used to change the text color in CSS?",
+    "options": [
+      "color",
+      "text-color",
+      "font-color",
+      "background-color"
+    ],
+    "answer": "color",
+    "difficulty": "easy"
+  },
+  {
+    "question": "How do you select an element with id 'header'?",
+    "options": [
+      "#header",
+      ".header",
+      "header",
+      "header#"
+    ],
+    "answer": "#header",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Which CSS property is used to set the space between elements?",
+    "options": [
+      "margin",
+      "padding",
+      "spacing",
+      "border"
+    ],
+    "answer": "margin",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What does the float property do?",
+    "options": [
+      "Positions an element to the left or right",
+      "Hides an element",
+      "Sets the opacity of an element",
+      "None of the above"
+    ],
+    "answer": "Positions an element to the left or right",
+    "difficulty": "medium"
+  },
+  {
+    "question": "How do you make a responsive design in CSS?",
+    "options": [
+      "Using media queries",
+      "Using fixed widths",
+      "Using percentages",
+      "Both A and C"
+    ],
+    "answer": "Both A and C",
+    "difficulty": "medium"
+  },
+  {
+    "question": "What is the purpose of the CSS box model?",
+    "options": [
+      "To define the layout of elements",
+      "To control the size of elements",
+      "To manage spacing around elements",
+      "All of the above"
+    ],
+    "answer": "All of the above",
+    "difficulty": "medium"
+  },
+  {
+    "question": "Which property is used to control the layout of flexbox items?",
+    "options": [
+      "display",
+      "flex-direction",
+      "flex-wrap",
+      "All of the above"
+    ],
+    "answer": "All of the above",
+    "difficulty": "medium"
+  },
+  {
+    "question": "How do you create a CSS comment?",
+    "options": [
+      "// This is a comment",
+      "/* This is a comment */",
+      "<!-- This is a comment -->",
+      "# This is a comment"
+    ],
+    "answer": "/* This is a comment */",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Which property is used to create space inside an element?",
+    "options": [
+      "padding",
+      "margin",
+      "border",
+      "spacing"
+    ],
+    "answer": "padding",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is the purpose of the display property?",
+    "options": [
+      "To control the layout of an element",
+      "To set the visibility of an element",
+      "To change the color of an element",
+      "To set the size of an element"
+    ],
+    "answer": "To control the layout of an element",
+    "difficulty": "medium"
+  },
+  {
+    "question": "How do you apply a style to all <h1> elements?",
+    "options": [
+      "h1 { color: red; }",
+      "h1.color { color: red; }",
+      "h1 { color: red; }",
+      "All of the above"
+    ],
+    "answer": "h1 { color: red; }",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Which CSS property controls the text alignment?",
+    "options": [
+      "text-align",
+      "align",
+      "text-position",
+      "text-direction"
+    ],
+    "answer": "text-align",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What does the opacity property do?",
+    "options": [
+      "Sets the transparency level of an element",
+      "Sets the color of an element",
+      "Sets the size of an element",
+      "None of the above"
+    ],
+    "answer": "Sets the transparency level of an element",
+    "difficulty": "medium"
+  },
+  {
+    "question": "How do you create a CSS grid layout?",
+    "options": [
+      "Using display: grid;",
+      "Using display: flex;",
+      "Using display: block;",
+      "Using display: inline;"
+    ],
+    "answer": "Using display: grid;",
+    "difficulty": "medium"
+  },
+  {
+    "question": "Which property is used to change the cursor style?",
+    "options": [
+      "cursor",
+      "pointer",
+      "mouse",
+      "style"
+    ],
+    "answer": "cursor",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is the purpose of the :hover pseudo-class?",
+    "options": [
+      "To style an element when the mouse is over it",
+      "To style an element when it is clicked",
+      "To style an element when it is focused",
+      "None of the above"
+    ],
+    "answer": "To style an element when the mouse is over it",
+    "difficulty": "medium"
+  },
+  {
+    "question": "How do you set a fixed width for an element?",
+    "options": [
+      "width: 100px;",
+      "width: auto;",
+      "width: fit-content;",
+      "width: inherit;"
+    ],
+    "answer": "width: 100px;",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is the purpose of the flex-grow property?",
+    "options": [
+      "To control how much a flex item grows relative to the rest",
+      "To control the size of a flex container",
+      "To control the alignment of flex items",
+      "None of the above"
+    ],
+    "answer": "To control how much a flex item grows relative to the rest",
+    "difficulty": "medium"
+  },
+  {
+    "question": "How do you create a responsive image in CSS?",
+    "options": [
+      "img { max-width: 100%; height: auto; }",
+      "img { width: 100%; height: auto; }",
+      "img { max-height: 100%; width: auto; }",
+      "All of the above"
+    ],
+    "answer": "img { max-width: 100%; height: auto; }",
+    "difficulty": "medium"
+  },
+  {
+    "question": "What is the purpose of the transition property?",
+    "options": [
+      "To create smooth changes between property values",
+      "To animate elements",
+      "To change the layout of elements",
+      "None of the above"
+    ],
+    "answer": "To create smooth changes between property values",
+    "difficulty": "medium"
+  },
+  {
+    "question": "How do you hide an element in CSS?",
+    "options": [
+      "display: none;",
+      "visibility: hidden;",
+      "opacity: 0;",
+      "All of the above"
+    ],
+    "answer": "All of the above",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Which property is used to create rounded corners?",
+    "options": [
+      "border-radius",
+      "border-corners",
+      "corner-radius",
+      "border-style"
+    ],
+    "answer": "border-radius",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is the purpose of the media query in CSS?",
+    "options": [
+      "To apply styles based on device characteristics",
+      "To apply styles based on element state",
+      "To apply styles based on user actions",
+      "None of the above"
+    ],
+    "answer": "To apply styles based on device characteristics",
+    "difficulty": "medium"
+  },
+  {
+    "question": "How do you set a background image in CSS?",
+    "options": [
+      "background-image: url('image.jpg');",
+      "background: url('image.jpg');",
+      "Both A and B",
+      "None of the above"
+    ],
+    "answer": "Both A and B",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What does the word 'inherit' mean in CSS?",
+    "options": [
+      "To take the value of a property from its parent element",
+      "To reset the property to its default value",
+      "To apply a style to all elements",
+      "None of the above"
+    ],
+    "answer": "To take the value of a property from its parent element",
+    "difficulty": "medium"
+  },
+  {
+    "question": "What is the purpose of the box-shadow property?",
+    "options": [
+      "To add shadows to elements",
+      "To create depth effects",
+      "To apply borders",
+      "Both A and B"
+    ],
+    "answer": "Both A and B",
+    "difficulty": "medium"
+  },
+  {
+    "question": "How do you specify multiple background images in CSS?",
+    "options": [
+      "background: url('image1.jpg'), url('image2.jpg');",
+      "background-image: url('image1.jpg'), url('image2.jpg');",
+      "Both A and B",
+      "None of the above"
+    ],
+    "answer": "Both A and B",
+    "difficulty": "medium"
+  },
+  {
+    "question": "Which property is used to control the spacing between lines of text?",
+    "options": [
+      "line-height",
+      "spacing",
+      "text-spacing",
+      "letter-spacing"
+    ],
+    "answer": "line-height",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is the purpose of the overflow property?",
+    "options": [
+      "To control how content is handled when it overflows its container",
+      "To hide elements",
+      "To control the visibility of elements",
+      "None of the above"
+    ],
+    "answer": "To control how content is handled when it overflows its container",
+    "difficulty": "medium"
+  },
+  {
+    "question": "How do you create a CSS variable?",
+    "options": [
+      "--my-variable: value;",
+      "var(--my-variable);",
+      "Both A and B",
+      "None of the above"
+    ],
+    "answer": "Both A and B",
+    "difficulty": "medium"
+  },
+  {
+    "question": "Which property is used to set the width of an element?",
+    "options": [
+      "width",
+      "height",
+      "size",
+      "length"
+    ],
+    "answer": "width",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is the purpose of the flexbox layout model?",
+    "options": [
+      "To create a one-dimensional layout",
+      "To create a two-dimensional layout",
+      "To create a grid layout",
+      "None of the above"
+    ],
+    "answer": "To create a one-dimensional layout",
+    "difficulty": "medium"
+  },
+  {
+    "question": "How do you add a comment in CSS?",
+    "options": [
+      "// This is a comment",
+      "/* This is a comment */",
+      "<!-- This is a comment -->",
+      "# This is a comment"
+    ],
+    "answer": "/* This is a comment */",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Which property is used to control the size of an element's border?",
+    "options": [
+      "border-width",
+      "border-size",
+      "border-thickness",
+      "border-style"
+    ],
+    "answer": "border-width",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is the default value of the display property?",
+    "options": [
+      "block",
+      "inline",
+      "inline-block",
+      "none"
+    ],
+    "answer": "block",
+    "difficulty": "medium"
+  },
+  {
+    "question": "How do you create a CSS grid layout?",
+    "options": [
+      "display: grid;",
+      "display: flex;",
+      "display: block;",
+      "display: inline;"
+    ],
+    "answer": "display: grid;",
+    "difficulty": "medium"
+  },
+  {
+    "question": "Which property is used to change the text color?",
+    "options": [
+      "color",
+      "text-color",
+      "font-color",
+      "background-color"
+    ],
+    "answer": "color",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What does the visibility property do?",
+    "options": [
+      "Controls whether an element is visible or hidden",
+      "Controls the opacity of an element",
+      "Controls the display of an element",
+      "None of the above"
+    ],
+    "answer": "Controls whether an element is visible or hidden",
+    "difficulty": "medium"
+  },
+  {
+    "question": "How do you specify the font size in CSS?",
+    "options": [
+      "font-size: 16px;",
+      "font: 16px;",
+      "text-size: 16px;",
+      "size: 16px;"
+    ],
+    "answer": "font-size: 16px;",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is the purpose of the align-items property in flexbox?",
+    "options": [
+      "To align flex items along the cross axis",
+      "To align flex items along the main axis",
+      "To control the spacing between flex items",
+      "None of the above"
+    ],
+    "answer": "To align flex items along the cross axis",
+    "difficulty": "medium"
+  },
+  {
+    "question": "How do you create a sticky footer in CSS?",
+    "options": [
+      "position: sticky;",
+      "position: fixed;",
+      "position: absolute;",
+      "None of the above"
+    ],
+    "answer": "position: sticky;",
+    "difficulty": "medium"
+  },
+  {
+    "question": "Which property is used to control the text indentation?",
+    "options": [
+      "text-indent",
+      "indent",
+      "padding-left",
+      "margin-left"
+    ],
+    "answer": "text-indent",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is the purpose of the background-size property?",
+    "options": [
+      "To control the size of the background image",
+      "To control the size of the background color",
+      "To control the size of the element",
+      "None of the above"
+    ],
+    "answer": "To control the size of the background image",
+    "difficulty": "medium"
+  },
+  {
+    "question": "How do you create a CSS transition?",
+    "options": [
+      "transition: property duration;",
+      "animation: property duration;",
+      "transition: duration;",
+      "None of the above"
+    ],
+    "answer": "transition: property duration;",
+    "difficulty": "medium"
+  },
+  {
+    "question": "What is the purpose of the cursor property?",
+    "options": [
+      "To change the mouse cursor when hovering over an element",
+      "To change the visibility of an element",
+      "To change the size of an element",
+      "None of the above"
+    ],
+    "answer": "To change the mouse cursor when hovering over",
+    "difficulty":"medium"
+    },
+    {
+        "question": "What does the display: flex; property do?",
+        "options": [
+          "Creates a flex container",
+          "Aligns items vertically",
+          "Sets the display to block",
+          "None of the above"
+        ],
+        "answer": "Creates a flex container",
+        "difficulty": "easy"
+      },
+      {
+        "question": "Which property is used to define the direction of flex items?",
+        "options": [
+          "flex-direction",
+          "flex-flow",
+          "direction",
+          "flex-order"
+        ],
+        "answer": "flex-direction",
+        "difficulty": "easy"
+      },
+      {
+        "question": "What is the default value of flex-direction?",
+        "options": [
+          "row",
+          "column",
+          "row-reverse",
+          "column-reverse"
+        ],
+        "answer": "row",
+        "difficulty": "medium"
+      },
+      {
+        "question": "Which property controls the alignment of flex items along the main axis?",
+        "options": [
+          "justify-content",
+          "align-items",
+          "align-content",
+          "flex-align"
+        ],
+        "answer": "justify-content",
+        "difficulty": "medium"
+      },
+      {
+        "question": "What does the flex-wrap property do?",
+        "options": [
+          "Controls whether flex items are forced onto one line or can wrap onto multiple lines",
+          "Sets the alignment of flex items",
+          "Sets the order of flex items",
+          "None of the above"
+        ],
+        "answer": "Controls whether flex items are forced onto one line or can wrap onto multiple lines",
+        "difficulty": "medium"
+      },
+      {
+        "question": "Which property is used to create a grid layout?",
+        "options": [
+          "display: grid;",
+          "display: flex;",
+          "grid-template-columns;",
+          "grid-layout;"
+        ],
+        "answer": "display: grid;",
+        "difficulty": "easy"
+      },
+      {
+        "question": "How do you define the number of columns in a grid layout?",
+        "options": [
+          "grid-template-columns: repeat(3, 1fr);",
+          "grid-columns: 3;",
+          "grid-template: columns 3;",
+          "column-count: 3;"
+        ],
+        "answer": "grid-template-columns: repeat(3, 1fr);",
+        "difficulty": "medium"
+      },
+      {
+        "question": "What does the grid-area property do?",
+        "options": [
+          "Defines a grid item’s size and location",
+          "Sets the grid template areas",
+          "Aligns items in a grid",
+          "None of the above"
+        ],
+        "answer": "Defines a grid item’s size and location",
+        "difficulty": "medium"
+      },
+      {
+        "question": "How do you center a flex item?",
+        "options": [
+          "justify-content: center;",
+          "align-items: center;",
+          "Both A and B",
+          "None of the above"
+        ],
+        "answer": "Both A and B",
+        "difficulty": "medium"
+      },
+      {
+        "question": "Which property is used to control the spacing between grid items?",
+        "options": [
+          "grid-gap",
+          "gap",
+          "grid-spacing",
+          "Both A and B"
+        ],
+        "answer": "Both A and B",
+        "difficulty": "medium"
+      },
+      {
+        "question": "What is the purpose of the align-items property in a flex container?",
+        "options": [
+          "Aligns flex items along the cross axis",
+          "Aligns flex items along the main axis",
+          "Sets the size of flex items",
+          "None of the above"
+        ],
+        "answer": "Aligns flex items along the cross axis",
+        "difficulty": "medium"
+      },
+      {
+        "question": "How do you create a two-dimensional layout with CSS Grid?",
+        "options": [
+          "Using grid-template-rows and grid-template-columns",
+          "Using flex-direction",
+          "Using display: block;",
+          "None of the above"
+        ],
+        "answer": "Using grid-template-rows and grid-template-columns",
+        "difficulty": "medium"
+      },
+      {
+        "question": "Which property is used to specify how much a flex item will grow relative to the rest?",
+        "options": [
+          "flex-grow",
+          "flex-shrink",
+          "flex-basis",
+          "flex-size"
+        ],
+        "answer": "flex-grow",
+        "difficulty": "medium"
+      },
+      {
+        "question": "What does the grid-template-areas property do?",
+        "options": [
+          "Defines named grid areas",
+          "Sets the size of grid items",
+          "Aligns items in a grid",
+          "None of the above"
+        ],
+        "answer": "Defines named grid areas",
+        "difficulty": "medium"
+      },
+      {
+        "question": "How do you specify the size of a grid item?",
+        "options": [
+          "grid-column: span 2;",
+          "grid-area: item-name;",
+          "grid-row: 1 / 3;",
+          "All of the above"
+        ],
+        "answer": "All of the above",
+        "difficulty": "medium"
+      },
+      {
+        "question": "What does the flex-basis property do?",
+        "options": [
+          "Defines the default size of a flex item before the remaining space is distributed",
+          "Sets the size of the flex container",
+          "Aligns flex items",
+          "None of the above"
+        ],
+        "answer": "Defines the default size of a flex item before the remaining space is distributed",
+        "difficulty": "medium"
+      },
+      {
+        "question": "How can you make a grid item span multiple rows?",
+        "options": [
+          "grid-row: 1 / 3;",
+          "grid-column: 1 / 3;",
+          "grid-area: item-name;",
+          "None of the above"
+        ],
+        "answer": "grid-row: 1 / 3;",
+        "difficulty": "medium"
+      },
+      {
+        "question": "Which property controls the alignment of grid items along the block axis?",
+        "options": [
+          "align-items",
+          "justify-items",
+          "grid-align",
+          "flex-align"
+        ],
+        "answer": "align-items",
+        "difficulty": "medium"
+      },
+      {
+        "question": "What is the purpose of the flex-shrink property?",
+        "options": [
+          "Defines the ability for a flex item to shrink if necessary",
+          "Defines the ability for a flex item to grow",
+          "Sets the default size of a flex item",
+          "None of the above"
+        ],
+        "answer": "Defines the ability for a flex item to shrink if necessary",
+        "difficulty": "medium"
+      },
+      {
+        "question": "What is the purpose of the width property in CSS?",
+        "options": [
+          "To set the width of an element",
+          "To set the height of an element",
+          "To set the margin of an element",
+          "To set the padding of an element"
+        ],
+        "answer": "To set the width of an element",
+        "difficulty": "easy"
+      },
+      {
+        "question": "How do you set the height of an element to 100 pixels?",
+        "options": [
+          "height: 100;",
+          "height: 100px;",
+          "height: 100%;",
+          "height: auto;"
+        ],
+        "answer": "height: 100px;",
+        "difficulty": "easy"
+      },
+      {
+        "question": "Which CSS property is used to set the maximum width of an element?",
+        "options": [
+          "max-width",
+          "width",
+          "min-width",
+          "size"
+        ],
+        "answer": "max-width",
+        "difficulty": "easy"
+      },
+      {
+        "question": "What is the default value of the box-sizing property?",
+        "options": [
+          "content-box",
+          "border-box",
+          "padding-box",
+          "none"
+        ],
+        "answer": "content-box",
+        "difficulty": "medium"
+      },
+      {
+        "question": "How do you set an element to take up the full width of its parent?",
+        "options": [
+          "width: 100%;",
+          "width: auto;",
+          "width: 100px;",
+          "width: fit-content;"
+        ],
+        "answer": "width: 100%;",
+        "difficulty": "easy"
+      },
+      {
+        "question": "Which property is used to set the minimum height of an element?",
+        "options": [
+          "min-height",
+          "height",
+          "max-height",
+          "size"
+        ],
+        "answer": "min-height",
+        "difficulty": "easy"
+      },
+      {
+        "question": "What does the property overflow: hidden; do?",
+        "options": [
+          "Hides content that overflows the element's box",
+          "Shows all content, even if it overflows",
+          "Sets the visibility of an element",
+          "None of the above"
+        ],
+        "answer": "Hides content that overflows the element's box",
+        "difficulty": "medium"
+      },
+      {
+        "question": "How do you set the width of an element to 50% of its parent?",
+        "options": [
+          "width: 50%;",
+          "width: 50px;",
+          "width: 50vw;",
+          "width: 50em;"
+        ],
+        "answer": "width: 50%;",
+        "difficulty": "easy"
+      },
+      {
+        "question": "Which property is used to control the size of the font in CSS?",
+        "options": [
+          "font-size",
+          "text-size",
+          "size",
+          "font-weight"
+        ],
+        "answer": "font-size",
+        "difficulty": "easy"
+      },
+      {
+        "question": "What is the effect of setting the height property to auto?",
+        "options": [
+          "The height will adjust based on the content",
+          "The height will be fixed at 100 pixels",
+          "The height will be zero",
+          "None of the above"
+        ],
+        "answer": "The height will adjust based on the content",
+        "difficulty": "medium"
+      },
+      {
+        "question": "How do you set both the width and height of an element in CSS?",
+        "options": [
+          "width: 100px; height: 100px;",
+          "size: 100px;",
+          "dimensions: 100px;",
+          "Both A and B"
+        ],
+        "answer": "width: 100px; height: 100px;",
+        "difficulty": "easy"
+      },
+      {
+        "question": "What does the property flex-basis specify?",
+        "options": [
+          "The initial size of a flex item before space is distributed",
+          "The maximum size of a flex item",
+          "The minimum size of a flex item",
+          "None of the above"
+        ],
+        "answer": "The initial size of a flex item before space is distributed",
+        "difficulty": "medium"
+      },
+      {
+        "question": "How do you create a fixed size for a flex item?",
+        "options": [
+          "flex: 0 0 100px;",
+          "flex: 1;",
+          "flex: auto;",
+          "flex: 100px;"
+        ],
+        "answer": "flex: 0 0 100px;",
+        "difficulty": "medium"
+      },
+      {
+        "question": "What is the purpose of the max-height property?",
+        "options": [
+          "To set the maximum height of an element",
+          "To set the minimum height of an element",
+          "To control the overflow of an element",
+          "None of the above"
+        ],
+        "answer": "To set the maximum height of an element",
+        "difficulty": "medium"
+      },
+      {
+        "question": "How do you set the height of an element to fill its parent container?",
+        "options": [
+          "height: 100%;",
+          "height: auto;",
+          "height: fill;",
+          "height: inherit;"
+        ],
+        "answer": "height: 100%;",
+        "difficulty": "easy"
+      },
+      {
+        "question": "What is the purpose of the CSS Grid Layout?",
+        "options": [
+          "To create a two-dimensional layout system",
+          "To create a one-dimensional layout system",
+          "To manage the alignment of text",
+          "None of the above"
+        ],
+        "answer": "To create a two-dimensional layout system",
+        "difficulty": "advanced"
+      },
+      {
+        "question": "How do you define a grid container in CSS?",
+        "options": [
+          "display: grid;",
+          "display: flex;",
+          "grid-container: true;",
+          "grid: container;"
+        ],
+        "answer": "display: grid;",
+        "difficulty": "advanced"
+      },
+      {
+        "question": "Which property is used to specify the number of columns in a grid layout?",
+        "options": [
+          "grid-template-columns",
+          "grid-columns",
+          "column-count",
+          "grid-rows"
+        ],
+        "answer": "grid-template-columns",
+        "difficulty": "advanced"
+      },
+      {
+        "question": "What does the align-items property do in a flex container?",
+        "options": [
+          "Aligns flex items along the cross axis",
+          "Aligns flex items along the main axis",
+          "Sets the size of flex items",
+          "None of the above"
+        ],
+        "answer": "Aligns flex items along the cross axis",
+        "difficulty": "advanced"
+      },
+      {
+        "question": "How do you create a responsive grid layout?",
+        "options": [
+          "Using media queries",
+          "Using grid-template-columns with fractions",
+          "Using fixed widths",
+          "Both A and B"
+        ],
+        "answer": "Both A and B",
+        "difficulty": "advanced"
+      },
+      {
+        "question": "What is the purpose of the flex-grow property?",
+        "options": [
+          "Defines how much a flex item will grow relative to the rest",
+          "Defines how much a flex item will shrink",
+          "Sets the default size of a flex item",
+          "None of the above"
+        ],
+        "answer": "Defines how much a flex item will grow relative to the rest",
+        "difficulty": "advanced"
+      },
+      {
+        "question": "Which property is used to control the spacing between grid items?",
+        "options": [
+          "grid-gap",
+          "gap",
+          "grid-spacing",
+          "Both A and B"
+        ],
+        "answer": "Both A and B",
+        "difficulty": "advanced"
+      },
+      {
+        "question": "How do you create a flex container?",
+        "options": [
+          "display: flex;",
+          "flex: container;",
+          "display: inline-flex;",
+          "Both A and C"
+        ],
+        "answer": "Both A and C",
+        "difficulty": "advanced"
+      },
+      {
+        "question": "What does the justify-content property do in a flex container?",
+        "options": [
+          "Aligns flex items along the main axis",
+          "Aligns flex items along the cross axis",
+          "Sets the order of flex items",
+          "None of the above"
+        ],
+        "answer": "Aligns flex items along the main axis",
+        "difficulty": "advanced"
+      },
+      {
+        "question": "Which property is used to specify how many rows a grid item should span?",
+        "options": [
+          "grid-row",
+          "grid-column",
+          "grid-area",
+          "grid-span"
+        ],
+        "answer": "grid-row",
+        "difficulty": "advanced"
+      },
+      {
+        "question": "What is the purpose of the minmax() function in CSS Grid?",
+        "options": [
+          "Defines a size range for grid tracks",
+          "Sets the minimum size of an element",
+          "Controls the maximum size of an element",
+          "None of the above"
+        ],
+        "answer": "Defines a size range for grid tracks",
+        "difficulty": "advanced"
+      },
+      {
+        "question": "How do you align a grid item to the center of its grid area?",
+        "options": [
+          "align-self: center;",
+          "justify-self: center;",
+          "Both A and B",
+          "None of the above"
+        ],
+        "answer": "Both A and B",
+        "difficulty": "advanced"
+      },
+      {
+        "question": "What does the property flex-basis define?",
+        "options": [
+          "The initial size of a flex item before space is distributed",
+          "The maximum size of a flex item",
+          "The minimum size of a flex item",
+          "None of the above"
+        ],
+        "answer": "The initial size of a flex item before space is distributed",
+        "difficulty": "advanced"
+      },
+      {
+        "question": "Which property is used to control the alignment of items in a CSS Grid?",
+        "options": [
+          "align-items",
+          "justify-items",
+          "grid-align",
+          "Both A and B"
+        ],
+        "answer": "Both A and B",
+        "difficulty": "advanced"
+      },
+      {
+        "question": "How do you create a grid area in CSS?",
+        "options": [
+          "grid-area: header;",
+          "grid-template-areas: 'header header';",
+          "Both A and B",
+          "grid-template: area header;"
+        ],
+        "answer": "Both A and B",
+        "difficulty": "advanced"
+      },
+      {
+        "question": "What does the property order do in a flex container?",
+        "options": [
+          "Specifies the order of flex items",
+          "Sets the size of flex items",
+          "Aligns flex items",
+          "None of the above"
+        ],
+        "answer": "Specifies the order of flex items",
+        "difficulty": "advanced"
+      }
+]
